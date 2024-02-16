@@ -1,0 +1,76 @@
+#inicio {
+    background-color:rgb(241, 230, 230);
+    background-image: URL('/img/fondo\ teclado_Movile_Tecnología\ y\ Gaming\ Sencillo\ Azul\ Oscuro.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1m;
+     gap: 0em;
+     width: 100%;
+  }
+ 
+  .presentation {
+    width: 250px;
+    /* background-image:'/img/fondo linkering.png';  */
+    display: grid;
+    justify-content: center;
+    padding: 2em 1em 0 1em;
+    gap: 1em;
+    text-align: center;
+   
+    }
+
+    .presentation h1{
+        color: orangered;
+    font-size: 2.0rem;
+      }
+    
+    .presentation p {
+        padding: 1em;
+        font-size: 1.0rem;
+      }
+
+      /*contenedor donde esta la imagen foto*/
+  .imagen {
+    /* background-color: rgb(66, 111, 151); */
+    width: 200px;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    @keyframes rotacion {
+        from {
+            transform: rotate(0deg);
+       
+          }
+          /* 20%{
+            transform: rotate(90deg);
+          } */
+          70%{
+            transform: rotate(-300deg);
+          }
+        to {
+            transform: rotate(360deg);
+                
+          }
+  
+        }
+  
+  
+  
+    /*FONDO DE la imagen foto*/
+    .imagen img {
+       width: 100%;
+        /* background-color:rgb(207, 191, 191); */
+   
+        margin-top: -30%; 
+        animation: rotacion 8s linear infinite; 
+  
+    }
