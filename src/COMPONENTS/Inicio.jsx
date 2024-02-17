@@ -14,7 +14,7 @@ const Inicio = () => {
 
           
          <div className="imagen">
-            <img src="/img/teorianudos-euler.gif" alt="img programer"  />
+            <img src="/img/teorianudos-euler200.png" alt="img programer"  />
           </div> 
           <DescargarPDF/>
        </section>
