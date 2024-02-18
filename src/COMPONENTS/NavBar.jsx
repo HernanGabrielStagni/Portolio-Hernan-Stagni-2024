@@ -1,15 +1,16 @@
 import React from 'react'
 import '../COMPONENTS/navBar_CSS.css'
-
+import { useTranslation } from 'react-i18next';
 
 const NavBar = () => {
+  const { t } = useTranslation();
     return (
-        <nav>
+        <nav className='navBar__container'>
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre-mi">Sobre Mí</a></li>
-            <li><a href="#proyects">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#inicio">{t('Navbar.home')}</a></li>
+            <li><a href="#sobre-mi">{t('Navbar.about')}</a></li>
+            <li><a href="#proyects">{t('Navbar.proyects')}</a></li>
+            <li><a href="#contacto">{t('Navbar.contact')}</a></li>
           </ul>
         </nav>
       );

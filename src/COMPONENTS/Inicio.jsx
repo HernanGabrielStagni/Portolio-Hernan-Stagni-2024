@@ -1,15 +1,22 @@
 import React from 'react'
 import DescargarPDF from './DescargarPDF';
 import '../COMPONENTS/inicio_CSS.css'
+import { useTranslation } from 'react-i18next';
+import ButtonWhatsapp from './ButtonWhatsapp/ButtonWhatsapp';
+
 
 const Inicio = () => {
+  const { t } = useTranslation();
+
     return (
         <section id="inicio">
 
           <div className="presentation">
-            <h1>Full Stack Developer</h1>
-            {/* <p>¡Hola! Soy un desarrollador web full stack con experiencia en "HTML", CSS, JavaScript, React, Git y npm.</p> */}
-            <p> Hello! I am a full stack web developer with experience in "HTML", CSS, JavaScript, React, Git, and npm.</p>
+            <h1>{t('inicio.name')}</h1>
+            <h2>{t('inicio.webDeveloper')}</h2>
+            <h3>{t('inicio.fullStack')}</h3>
+            <p> {t('inicio.presentation')}</p>
+          
           </div>
 
           
@@ -17,8 +24,11 @@ const Inicio = () => {
             <img src="/img/teorianudos-euler200.png" alt="img programer"  />
           </div> 
           <DescargarPDF/>
+          <ButtonWhatsapp/>
        </section>
       );
 }
 
 export default Inicio
+
+

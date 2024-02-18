@@ -10,8 +10,8 @@ function App() {
   return (
 
     <main className="app">
-   <NavBar/>
-      <Inicio/>   
+    <NavBar/>
+    <Inicio/>   
   </main> 
   )
 }

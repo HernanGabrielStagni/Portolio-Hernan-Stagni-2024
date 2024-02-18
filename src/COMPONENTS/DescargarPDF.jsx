@@ -8,15 +8,15 @@ const DescargarPDF = () => {
 
     return (
     <div className='container_general'>
-       <h3>Mi CV</h3>
+       {/* <h3>Mi CV</h3> */}
        
        <a href={urlPDF} target="_blank">
-          <button>Ver CV</button>
+          <button>Descargar CV</button>
         </a>
         
-        <a href={urlPDF} download="CV_Stagni_Hernan.pdf">
-        <button>Descargar CV</button>
-      </a>
+        {/* <a href={urlPDF} download="CV_Stagni_Hernan.pdf">
+        <button>Descargar CV</button> 
+      </a>*/}
     </div>
   )
 }

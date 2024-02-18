@@ -1,5 +1,5 @@
 #inicio {
-    background-color:rgb(241, 230, 230);
+   
     background-image: URL('/img/fondo\ teclado_Movile_Tecnología\ y\ Gaming\ Sencillo\ Azul\ Oscuro.png');
     height: 100vh;
     background-repeat: no-repeat;
@@ -9,37 +9,58 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1m;
+    padding: 1em;
      gap: 0em;
      width: 100%;
   }
  
   .presentation {
-    width: 250px;
-    /* background-image:'/img/fondo linkering.png';  */
+    width: 100%;
+    margin-top: 35px;
+    background-image:'/img/fondo linkering.png'; 
     display: grid;
     justify-content: center;
     padding: 2em 1em 0 1em;
-    gap: 1em;
+    gap: 0em;
     text-align: center;
    
     }
-
-    .presentation h1{
+    /* Hernán Gabriel Stagni */
+    .presentation h1{ 
+      border: solid red;
         color: orangered;
-    font-size: 2.0rem;
+        font-size: 2.rem;
+        padding: .5em 0.2em ;
       }
     
+      /*Desarrollador Web*/
+      .presentation h2{
+        color: rgb(252, 252, 252);
+        font-size: 1.5rem;
+        /* background-color: rgb(235, 66, 36); */
+      margin-top: .5em;
+      }
+
+/*Desarrollador Web*/
+.presentation h3{
+  /* background-color: aqua; */
+  margin-top: .2em;
+  color: rgb(252, 252, 252);
+  font-size: 1.2rem;
+}
+
+/*texto de presentacion*/
     .presentation p {
         padding: 1em;
-        font-size: 1.0rem;
+        font-size: 1.rem;
       }
 
       /*contenedor donde esta la imagen foto*/
   .imagen {
     /* background-color: rgb(66, 111, 151); */
-    width: 200px;
-    padding: 1em;
+    width: 100px;
+    /* padding: 1em;
+    margin-top: .50em; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,12 +71,12 @@
             transform: rotate(0deg);
        
           }
-          /* 20%{
+          25%{
             transform: rotate(90deg);
-          } */
-          70%{
-            transform: rotate(-300deg);
-          }
+          } 
+          50%{
+            transform: rotate(180deg);
+          } 
         to {
             transform: rotate(360deg);
                 
@@ -71,7 +92,10 @@
        width: 100%;
         /* background-color:rgb(207, 191, 191); */
    
-        margin-top: -30%; 
+        margin-top: 0%; 
         animation: rotacion 8s linear infinite; 
   
     }
+
+    
+ 
