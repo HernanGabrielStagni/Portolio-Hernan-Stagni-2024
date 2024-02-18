@@ -2,7 +2,7 @@
     position:absolute;
     z-index: 1000;
     bottom: 3rem;
-    right: 1rem;
+    right: 3rem;
 }
 
 .btn__whatsapp:before,

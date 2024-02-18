@@ -51,7 +51,7 @@
 
 /*texto de presentacion*/
     .presentation p {
-        padding: 1em;
+        padding: 0 1em;
         font-size: 1.rem;
       }
 

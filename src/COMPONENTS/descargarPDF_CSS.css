@@ -6,13 +6,14 @@
     text-align: center;
     color: rgb(264, 66, 0);
     font-size: 25px;
-    gap: .5em; 
+    
+    /* gap: .5em;  */
   }
   
   .container_general button{
       padding: .5em;
       font-size: 20px;
       border-radius: 10px;
-  background-color: rgb(122, 122, 124);
-  
+  background-color: rgb(187, 76, 57);
+  font-weight:500;
   }
