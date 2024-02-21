@@ -1,4 +1,4 @@
-import Whatsapp from '../../../public/svg/icon-whatsapp.svg';
+import Whatsapp from '/svg/icon-whatsapp.svg';
 import './ButtonWhatsapp.css';
 
 const ButtonWhatsapp = () => {
