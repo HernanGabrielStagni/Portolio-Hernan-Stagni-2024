@@ -60,8 +60,26 @@
         font-size: 1.rem;
       }
 
-      /*contenedor donde esta la imagen foto*/
-  .imagen {
+      .descarga__whatsapp{
+        /* background-color: rgb(129, 5, 113); */
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        width:100%;
+        position: relative;
+        gap: 6em;
+        
+        
+            }
+
+
+
+
+
+
+      /*contenedor donde esta la imagen nudo*/
+  
+    .fondo__imagen {
     /* background-color: rgb(66, 111, 151); */
     width: 100px;
     /* padding: 1em;
@@ -69,8 +87,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blue;
     }
 
+
+    /*animacion nudo*/
     @keyframes rotacion {
         from {
             transform: rotate(0deg);
@@ -91,7 +112,7 @@
   
   
   
-    /*FONDO DE la imagen foto*/
+    /*FONDO DE la imagen nudo*/
     
     .imagen img {
        width: 100%;
@@ -99,9 +120,16 @@
    
         margin-top: 25%; 
         animation: rotacion 8s linear infinite; 
-  
+      }
+
+    .container_nudo{
+    position:relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
     }
 
-    .container_descarga{
-    position:relative;
-    }
+   

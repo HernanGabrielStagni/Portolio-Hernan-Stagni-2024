@@ -16,7 +16,7 @@ const NavBar = () => {
             <li><a href="#contacto">{t('Navbar.contact')}</a></li>
           
           </ul>
-          <ButtonWhatsapp />
+          {/* <ButtonWhatsapp /> */}
                   </nav>
       );
 }

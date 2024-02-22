@@ -16,12 +16,23 @@ const Inicio = () => {
         <p> {t("inicio.presentation")}</p>
       </div>
 
-      <div className="container_descarga">
-        <div className="imagen">
+      <div className="descarga__whatsapp">
+          {/* <div className="descarga__whatsapp2"> */}
+            <DescargarPDF />
+            <ButtonWhatsapp />
+          {/* </div> */}
+          
+        </div>
+
+
+      <div className="container_nudo">
+        <div className="fondo__imagen">
           <img src="/img/teorianudos-euler200.png" alt="img programer" />
         </div>
-        <DescargarPDF />
-      </div>
+        
+       
+        
+       </div>
     </section>
   );
 };

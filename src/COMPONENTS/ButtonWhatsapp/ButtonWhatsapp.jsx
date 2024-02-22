@@ -3,6 +3,7 @@ import './ButtonWhatsapp.css';
 
 const ButtonWhatsapp = () => {
   return (
+    <div className='container__whatsapp'>
     <section className="button__whatsApp">
       <a
         href="https://wa.me/543584313590?text=Hola%20Hernan,%20vi%20tu%20trabajo%20y%20me%20gustar%C3%ADa%20saber%20mas%20sobre%20ti."
@@ -13,6 +14,7 @@ const ButtonWhatsapp = () => {
         <img src={Whatsapp} alt="Contacto por WhatsApp" />
       </a>
     </section>
+    </div>
   );
 };
 

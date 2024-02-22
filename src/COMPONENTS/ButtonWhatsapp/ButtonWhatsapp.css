@@ -1,8 +1,24 @@
+
+.container__whatsapp{
+background-color: #9fc4b2;
+
+
+
+
+}
+
+.container__whatsapp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .btn__whatsapp {
     position:absolute;
     z-index: 1000;
-    bottom: 0px;
-     right: 5px; 
+    bottom: 25%;
+    right: 25%;
+    transform: translateY(-50%);  
 }
 
 .btn__whatsapp:before,
