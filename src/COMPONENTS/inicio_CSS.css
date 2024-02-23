@@ -25,7 +25,7 @@
     background-image:'/img/fondo linkering.png'; 
     display: grid;
     justify-content: center;
-    padding: 2em 1em 0 1em;
+    padding: 1em 1em 0 1em;
     gap: 0em;
     text-align: center;
    
@@ -67,8 +67,7 @@
         align-items: center ;
         width:100%;
         position: relative;
-        gap: 6em;
-        
+        gap:  0 8em;
         
             }
 
@@ -87,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
     }
 
 
@@ -114,11 +113,11 @@
   
     /*FONDO DE la imagen nudo*/
     
-    .imagen img {
+    .fondo__imagen img {
        width: 100%;
         /* background-color:rgb(207, 191, 191); */
    
-        margin-top: 25%; 
+        /* margin-top: 25%;  */
         animation: rotacion 8s linear infinite; 
       }
 
@@ -129,7 +128,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     }
 
    
