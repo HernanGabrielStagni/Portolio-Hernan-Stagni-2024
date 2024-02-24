@@ -17,7 +17,7 @@ const Inicio = () => {
       </div>
 
       <div className="descarga__whatsapp">
-          {/* <div className="descarga__whatsapp2"> */}
+        
             <DescargarPDF />
             <ButtonWhatsapp />
           {/* </div> */}

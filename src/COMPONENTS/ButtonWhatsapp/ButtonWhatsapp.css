@@ -16,8 +16,8 @@ background-color: #9fc4b2;
 .btn__whatsapp {
     position:absolute;
     z-index: 1000;
-    bottom: 25%;
-    right: 25%;
+    bottom: -15%;
+    right: 20%;
     transform: translateY(-50%);  
 }
 
@@ -48,7 +48,7 @@ background-color: #9fc4b2;
 .btn__whatsapp:after {
     animation-delay: 1.3s;
     /* background-color: #d66625; */
-    background-color: #00e676;
+    background-color: #84b19b;
 }
 
 .btn__whatsapp img {
@@ -67,7 +67,7 @@ background-color: #9fc4b2;
     }
 
     100% {
-        opacity: -10;
+        opacity: 0;
         transform: scale(2.0);
     }
 }
