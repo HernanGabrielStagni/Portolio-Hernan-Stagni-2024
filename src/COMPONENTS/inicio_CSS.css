@@ -71,7 +71,13 @@
         
             }
 
-
+            .bxl-html5 {
+              font-size: 12em;
+              background: linear-gradient(90deg, #e34c26, #f06529, #b7b7b7);
+              -webkit-background-clip: text;
+              background-clip: text;
+              color: transparent;
+            }
 
 
 
@@ -131,4 +137,3 @@
     /* background-color: aqua; */
     }
 
-   

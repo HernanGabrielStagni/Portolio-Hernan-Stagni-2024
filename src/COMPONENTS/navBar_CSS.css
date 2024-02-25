@@ -10,6 +10,7 @@
     position: fixed;  
     flex-wrap:wrap;
     overflow: hidden;
+    z-index: 1000;
   
   }
  
@@ -20,10 +21,10 @@
   margin: 0;
 }
  
-.neon-menu li {
-  /* margin-right: 20px; */
+/* .neon-menu li {
   
-} 
+  
+}  */
 
 .neon-menu li a {
   position: relative;
@@ -32,20 +33,14 @@
   font-weight: bold;
  margin: 0em;
   font-size: .8rem;
-  /* padding: .5em; */
-
-  /* margin-right: 20px; */
-
   
 
 }
+
 .neon-menu li a:hover {
   font-size: 1.5rem;
-
   transition: transform 0.8s ease-in-out;
 }
-
-
 
 .neon-menu li a::before {
   content: '';

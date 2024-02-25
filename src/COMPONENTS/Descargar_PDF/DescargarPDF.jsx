@@ -9,16 +9,20 @@ const DescargarPDF = () => {
     <div className="container_general">
           <a href={urlPDF} target="_blank">
                 <button className="button">
+                
                       <div div__img>
+                      
                         <img
+                      
                           src="/svg/097-download.svg"
                           alt="download cv"
                           className="download__img"
                         
                         />
-                        <h3>Descargar </h3>
+                        <h3>CV</h3>
+                       
                       </div>
-                      <h3>CV</h3>
+                      <h3>Descargar </h3>
                 </button>
           </a>
       

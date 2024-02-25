@@ -24,6 +24,7 @@ const Inicio = () => {
           
         </div>
 
+    
 
       <div className="container_nudo">
         <div className="fondo__imagen">

@@ -1,0 +1,184 @@
+
+.container__skills{
+background-color: rgb(14, 8, 37); 
+
+display: flex;
+justify-content: center;
+
+flex-wrap: wrap;
+gap: 2em;
+padding: 1em;
+z-index: 0;
+}
+
+/*================================================*/
+
+.skill{
+    background: linear-gradient(90deg,rgb(14, 8, 37), #0f0d97, #faf9f9);
+  
+    background: linear-gradient(to bottom right, rgb(14, 8, 37),rgb(14, 8, 37),rgb(14, 8, 37), #ffffff);
+
+    background: radial-gradient(circle at center, rgb(198, 191, 226), rgb(14, 8, 37) ,rgb(14, 8, 37));
+    /* Establece el degradado radial desde el azul eléctrico (#007bff) hasta blanco (#ffffff) */
+    border: 1px solid rgb(14, 8, 37); /* Borde azul eléctrico */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra azul rgb(14, 8, 37)eléctrico */
+
+    background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
+    /* Establece el degradado radial con tonos intermedios */
+
+
+
+    width:150px;
+    height: 150px;
+    padding: 0em;
+    border-radius: 50%;
+    border:groove 5px ;
+    box-shadow: 0px 0px 2px 2px rgb(243, 89, 0);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+/*================================================*/
+.skill i{
+font-size: 90px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+padding: .1em;
+
+}
+
+.skill p {
+  /* font-size: 30px; */
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+/* padding: 0.1em; */
+  text-shadow: 1px 2px  3px black;
+  font-weight: 700;
+  bottom: 25px;  
+    }
+
+
+    
+/*================================================*/
+/*================================================*/
+
+  
+  .bxl-html5 {
+    font-size: 12em;
+    background: linear-gradient(90deg, #e34c26, #f06529, #b7b7b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .html5 {
+    font-size: 1.5em;
+    color: #f06529;
+    text-align: center;
+  }
+/*================================================*/
+  
+  .bxl-css3 {
+ 
+    background: linear-gradient(90deg, #264de4, #2965f1, #b7b7b7, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .css3 {
+    color: #2965f1;
+    font-size: 1.5em;
+    text-align: center;
+  }
+/*================================================*/
+  
+  .bxl-javascript {
+    color: #f0db4f;
+  
+    border-radius: 1em;
+  }
+  
+  .javascript {
+    color: #f0db4f;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+/*================================================*/
+  
+  .bxl-typescript {
+    
+    background: linear-gradient(90deg, #007acc, #b7b7b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .typescript {
+    color: #007acc;
+    font-size: 1.em;
+    text-align: center;
+  }
+
+/*================================================*/
+
+.bxl-vuejs {
+    color: #41b883;
+
+  }
+  
+  .vue {
+    color: #41b883;
+    font-size: 1.5em;
+    text-align: center;
+  }
+/*================================================*/
+  
+  .bxl-react {
+    color: #61dbfb;
+ 
+  }
+  
+  .react {
+    color: #61dbfb;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  /*================================================*/
+  
+  .bxl-nodejs {
+   
+    background: linear-gradient(90deg, #303030, #68a063, #3c873a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .skill .node {
+    color: #68a063;
+    font-size: 1.5em;
+    text-align: center;
+    bottom: 20px;
+  }
+/*================================================*/
+
+  
+  .bxl-postgresql {
+   
+    background: linear-gradient(90deg, #0064a5, #336791, #008bb9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .postgres {
+    color: #336791;
+    font-size: 1.0em;
+    text-align: center;
+   
+  }
