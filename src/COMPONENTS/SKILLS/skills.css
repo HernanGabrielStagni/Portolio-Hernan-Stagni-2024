@@ -11,6 +11,21 @@ padding: 1em;
 z-index: 0;
 }
 
+
+ .Skills {
+    background-color: #1f1818;
+    font-size: 2em;
+    color:rgb(42, 14, 153); 
+    text-shadow:1px 1px 5px  white;
+    font-weight: 700;
+    letter-spacing: 3px; /* Añade 2 píxeles de espacio entre caracteres */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
 /*================================================*/
 
 .skill{
@@ -52,6 +67,7 @@ padding: .1em;
 .skill p {
   /* font-size: 30px; */
   font-family: 'Times New Roman', Times, serif;
+  
   position: absolute;
   left: 50%;
   transform: translateX(-50%);

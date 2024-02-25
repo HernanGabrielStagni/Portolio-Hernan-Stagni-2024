@@ -19,31 +19,29 @@ const Skills = () => {
         <p className="javascript">JavaScript</p>
       </div>
 
-      {/* <div className="skill">
+      <div className="skill">
         <i className="bx bxl-typescript"></i>
         <p className="typescript">TypeScript</p>
-      </div> */}
+      </div>
 
-      {/* <div className="skill">
+      <div className="skill">
         <i className="bx bxl-vuejs"></i>
         <p className="vue">Vue.js</p>
-      </div> */}
+      </div>
 
       <div className="skill">
         <i className="bx bxl-react"></i>
         <p className="react">React.js</p>
       </div>
-
+      
       <div className="skill">
         <i className="bx bxl-nodejs"></i>
         <p className="node">Node.js</p>
       </div>
-
       <div className="skill">
         <i className="bx bxl-postgresql"></i>
         <p className="postgres">PostgreSQL</p>
       </div>
-      
     </div>
   );
 };

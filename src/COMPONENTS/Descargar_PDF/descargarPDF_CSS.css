@@ -1,66 +1,133 @@
-.container_general{
-    
+.container_general {
+
     display: flex;
     text-align: center;
-    color: rgb(264, 66, 0);
-  
-  }
-  
-  .div__img{
-display: flex;
-justify-content: center;
-text-align: center;
-  }
 
 
- .download__img {
-    /* position: absolute; */
-    left: -50%;
-    width: 50px;
-    }
+}
 
-
-  
-  .container_general button{
-     margin-top: 1em;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     text-align: center;
-      font-size: 15px;
-      width: 100%;
-      gap: 1em;
-      border-radius: 10px;
-  background-color: rgb(187, 76, 57);
-  font-weight:600;
-  cursor: pointer;
-  }
-
-
-  .download__img:before,
-  .download__img:after {
-      font-size: .8rem;
-      text-align:center;
-      color: white;
-      /* font-weight: 700; */
+.div__img {
+    display: flex;
+    /* justify-content: center;
+    text-align: center; */
+}
+/*//////////////////////////////////////////*/
+.circulo__descarga{
+    
+        background: linear-gradient(90deg,rgb(14, 8, 37), #0f0d97, #faf9f9);
       
-      content: " animation: ondaDescarga 1.7s infinite;";
+        background: linear-gradient(to bottom right, rgb(14, 8, 37),rgb(14, 8, 37),rgb(14, 8, 37), #ffffff);
+    
+        background: radial-gradient(circle at center, rgb(198, 191, 226), rgb(14, 8, 37) ,rgb(14, 8, 37));
+        /* Establece el degradado radial desde el azul eléctrico (#007bff) hasta blanco (#ffffff) */
+        border: 1px solid rgb(14, 8, 37); /* Borde azul eléctrico */
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra azul rgb(14, 8, 37)eléctrico */
+    
+        background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
+        /* Establece el degradado radial con tonos intermedios */
+    
+    
+    
+        width:150px;
+        height: 150px;
+        padding: 0em;
+        border-radius: 50%;
+        border:groove 5px ;
+        box-shadow: 0px 0px 2px 2px rgb(243, 89, 0);
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+    }
+    /*================================================*/
+    .circulo__descarga i{
+    font-size: 75px;
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    padding: .1em;
+    color:rgb(243, 89, 0);;
+    
+    }
+    
+    .circulo__descarga h2 {
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
       position: absolute;
-      top: 2px;
-      left: 4px;
-      width: 3rem;
-      height: 3rem;
-      border-radius: 50%;
-      opacity: 1;
-      animation: ondaDescarga 1.7s infinite;
-  }
-  
+      left: 50%;
+      transform: translateX(-50%);
+
+      text-shadow: 1px 1px  2px rgb(250, 247, 247);
+      font-weight: 700;
+      bottom: 15px;  
+        }
+
+        .circulo__descarga h3 {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size:1.5em ;
+            text-shadow: 1px -1px  4px rgb(250, 247, 247);
+            font-weight: 700;
+            bottom: 45px;  
+              }
+
+
+    
+/*//////////////////////////////////////////*/
+
+
+.circulo__descarga .bx {
+    /* background-color: aqua; */
+    text-shadow: 2px 2px 9px white;
+
+
+}
+
+
+
+.container_general button {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    gap: 1em;
+    border-radius: 10px;
+    background-color: rgb(187, 76, 57);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.download__img:before,
+.download__img:after {
+    font-size: .8rem;
+    text-align: center;
+    color: white;
+    /* font-weight: 700; */
+
+    content: " animation: ondaDescarga 1.7s infinite;";
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    opacity: 1;
+    animation: ondaDescarga 1.7s infinite;
+}
 
 
 
 
 
-   @keyframes ondaDescarga {
+
+@keyframes ondaDescarga {
     0% {
         transform: scale(.8);
     }
@@ -74,4 +141,4 @@ text-align: center;
         opacity: 1;
         transform: scale(0.8);
     }
-} 
+}
