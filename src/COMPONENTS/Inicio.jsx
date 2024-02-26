@@ -18,24 +18,15 @@ const Inicio = () => {
       </div>
 
       <div className="descarga__whatsapp">
-        
-            <DescargarPDF />
-          
-            <Whatsapp/>
-          {/* </div> */}
-          
-        </div>
+        <DescargarPDF />
 
-    
-
-      <div className="container_nudo">
-        <div className="fondo__imagen">
-          <img src="/img/teorianudos-euler200.png" alt="img programer" />
-        </div>
-        
+        <Whatsapp />
        
-        
-       </div>
+      </div>
+
+      <div className="fondo__imagen">
+        <img src="/img/teorianudos-euler200.png" alt="img programer" />
+      </div>
     </section>
   );
 };
