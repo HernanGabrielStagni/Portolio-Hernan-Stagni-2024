@@ -1,139 +1,138 @@
 #inicio {
    
-    background-image: URL('/img/fondo\ teclado_Movile_Tecnología\ y\ Gaming\ Sencillo\ Azul\ Oscuro.png');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1em;
-     gap: 0em;
-     width: 100%;
-     
-     
-
-  }
- 
-
-
-  .presentation {
-    width: 100%;
-    margin-top: 35px;
-    background-image:'/img/fondo linkering.png'; 
-    display: grid;
-    justify-content: center;
-    padding: 1em 1em 0 1em;
-    gap: 0em;
-    text-align: center;
+  background-image: URL('/img/fondo\ teclado_Movile_Tecnología\ y\ Gaming\ Sencillo\ Azul\ Oscuro.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+   gap: 0em;
+   width: 100%;
    
+   
+
+}
+
+
+
+.presentation {
+  width: 100%;
+  margin-top: 35px;
+  background-image:'/img/fondo linkering.png'; 
+  display: grid;
+  justify-content: center;
+  padding: 1em 1em 0 1em;
+  gap: 0em;
+  text-align: center;
+ 
+  }
+  /* Hernán Gabriel Stagni */
+  .presentation h1{ 
+    border: solid red;
+      color: orangered;
+      font-size: 2.rem;
+      padding: .5em 0.2em ;
     }
-    /* Hernán Gabriel Stagni */
-    .presentation h1{ 
-      border: solid red;
-        color: orangered;
-        font-size: 2.rem;
-        padding: .5em 0.2em ;
-      }
-    
-      /*Desarrollador Web*/
-      .presentation h2{
-        color: rgb(252, 252, 252);
-        font-size: 1.5rem;
-        /* background-color: rgb(235, 66, 36); */
-      margin-top: .5em;
-      }
+  
+    /*Desarrollador Web*/
+    .presentation h2{
+      color: rgb(252, 252, 252);
+      font-size: 1.5rem;
+      /* background-color: rgb(235, 66, 36); */
+    margin-top: .5em;
+    }
 
 /*Desarrollador Web*/
 .presentation h3{
-  /* background-color: aqua; */
-  margin-top: .2em;
-  color: rgb(252, 252, 252);
-  font-size: 1.2rem;
+/* background-color: aqua; */
+margin-top: .2em;
+color: rgb(252, 252, 252);
+font-size: 1.2rem;
 }
 
 /*texto de presentacion*/
-    .presentation p {
-        padding: 0 1em;
-        font-size: 1.rem;
-      }
-
-      .descarga__whatsapp{
-        /* background-color: rgb(129, 5, 113); */
-        display: flex;
-        justify-content: center;
-        align-items: center ;
-        width:100%;
-        position: relative;
-        gap:  0 5em;
-        
-            }
-
-            .bxl-html5 {
-              font-size: 12em;
-              background: linear-gradient(90deg, #e34c26, #f06529, #b7b7b7);
-              -webkit-background-clip: text;
-              background-clip: text;
-              color: transparent;
-            }
-
-
-
-
-      /*contenedor donde esta la imagen nudo*/
-  
-    .fondo__imagen {
-    /* background-color: rgb(66, 111, 151); */
-    width: 100px;
-    /* padding: 1em;
-    margin-top: .50em; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: blue; */
+  .presentation p {
+      padding: 0 1em;
+      font-size: 1.rem;
     }
 
+    .descarga__whatsapp{
+      /* background-color: rgb(129, 5, 113); */
+      display: flex;
+      justify-content: center;
+      align-items: center ;
+      width:100%;
+      position: relative;
+      gap:  0 1em;
+      
+          }
 
-    /*animacion nudo*/
-    @keyframes rotacion {
-        from {
-            transform: rotate(0deg);
-       
+          .bxl-html5 {
+            font-size: 12em;
+            background: linear-gradient(90deg, #e34c26, #f06529, #b7b7b7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
           }
-          25%{
-            transform: rotate(90deg);
-          } 
-          50%{
-            transform: rotate(180deg);
-          } 
-        to {
-            transform: rotate(360deg);
-                
-          }
-  
+
+
+
+
+    /*contenedor donde esta la imagen nudo*/
+
+  .fondo__imagen {
+  /* background-color: rgb(66, 111, 151); */
+  width: 100px;
+  /* padding: 1em;
+  margin-top: .50em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  }
+
+
+  /*animacion nudo*/
+  @keyframes rotacion {
+      from {
+          transform: rotate(0deg);
+     
         }
-  
-  
-  
-    /*FONDO DE la imagen nudo*/
-    
-    .fondo__imagen img {
-       width: 100%;
-        /* background-color:rgb(207, 191, 191); */
-   
-        /* margin-top: 25%;  */
-        animation: rotacion 8s linear infinite; 
+        25%{
+          transform: rotate(90deg);
+        } 
+        50%{
+          transform: rotate(180deg);
+        } 
+      to {
+          transform: rotate(360deg);
+              
+        }
+
       }
 
-    .container_nudo{
-    position:relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: aqua; */
+
+
+  /*FONDO DE la imagen nudo*/
+  
+  .fondo__imagen img {
+     width: 100%;
+      /* background-color:rgb(207, 191, 191); */
+ 
+      /* margin-top: 25%;  */
+      animation: rotacion 8s linear infinite; 
     }
 
+  .container_nudo{
+  position:relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  }

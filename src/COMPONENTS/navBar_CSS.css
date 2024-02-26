@@ -20,21 +20,13 @@
   padding: 0;
   margin: 0;
 }
- 
-/* .neon-menu li {
-  
-  
-}  */
 
 .neon-menu li a {
   position: relative;
   color: rgb(65, 13, 253); /* color verde para el texto */
   text-decoration: none;
   font-weight: bold;
- margin: 0em;
-  font-size: .8rem;
-  
-
+  font-size: .9rem;
 }
 
 .neon-menu li a:hover {

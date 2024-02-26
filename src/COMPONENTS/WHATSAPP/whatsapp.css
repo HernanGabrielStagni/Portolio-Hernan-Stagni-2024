@@ -1,0 +1,67 @@
+/*rectangulo exterior boton whatsapp*/
+.container__whatsapp {
+    /* background-color: #1f1818; */
+    background-color:transparent ; 
+    font-size: 2em;
+    color:rgb(42, 14, 153); 
+   
+    font-weight: 700;
+    letter-spacing: 3px; /* Añade 2 píxeles de espacio entre caracteres */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+/*========== Circulo general Chapita  ======================*/
+
+.circulo__general{
+   
+    background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
+    /* Establece el degradado radial con tonos intermedios */
+   
+    width:120px;
+    height: 120px;
+    padding: 0em;
+    border-radius: 50%;
+    border:groove 5px #469770;
+    box-shadow: 0px 0px 2px 2px #34634c;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+/*=== icono de whatsaapp  ==*/
+.bxl-whatsapp{
+ color:#0f8b4f;;
+font-size: 50px;
+text-shadow:2px 2px 5px #fcfdfc;
+
+position: absolute;
+left: 25%;
+transform: translateX(-50%);
+padding: .1em;
+top:10px
+}
+
+/*=== <h3> Titulo  "whatsaapp"   ==*/
+.titulo__whatsapp{
+    font-family: 'Times New Roman', Times, serif;
+        color: black;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size:18px ;
+        text-shadow: 1px -1px  4px rgb(250, 247, 247);
+        font-weight: 700;
+        bottom: 25px;  
+        letter-spacing: .5px;
+}
+
+
+    
+/*================================================*/
+/*================================================*/

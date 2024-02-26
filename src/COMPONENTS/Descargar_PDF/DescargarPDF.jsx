@@ -7,9 +7,10 @@ const DescargarPDF = () => {
 
   return (
     <div className="container_general">
-      <a href={urlPDF} target="_blank">
-        <button className="button">
-          <div div__img>
+      <a 
+      href={urlPDF} target="_blank">
+        {/* <button className="button"> */}
+        
             {/* <i class="bx bxs-cloud-download bx-flashing"></i> */}
             {/* <i class='bx bxs-cloud-download bx-fade-up' ></i> */}
            
@@ -19,10 +20,9 @@ const DescargarPDF = () => {
               <h2>CV</h2>
               <br />
             </div>
-          </div>
-
+        
           
-        </button>
+        {/* </button> */}
       </a>
     </div>
   );
