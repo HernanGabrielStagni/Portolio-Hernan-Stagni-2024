@@ -1,0 +1,26 @@
+.container__language{
+    position: fixed;
+    padding: .5em;
+    background-color: rgb(50, 43, 156);
+ 
+    
+    left: 10px;
+    top: 50px;
+    font-size: 1rem;
+
+}
+
+.opciones{
+display: flex;
+width: 100%;
+background-color: rgb(27, 93, 192);
+}
+
+.Label__idioma{
+color: white;
+/* font-size: 1rem; */
+}
+
+select{
+    font-size: 1rem;
+}

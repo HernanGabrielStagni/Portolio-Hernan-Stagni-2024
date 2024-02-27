@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../COMPONENTS/navBar_CSS.css";
 import { useTranslation } from "react-i18next";
 import ButtonWhatsapp from "./ButtonWhatsapp/ButtonWhatsapp";
@@ -8,6 +8,14 @@ import Language from "./LANGUAGE/Language";
 
 const NavBar = () => {
   const { t } = useTranslation();
+  const [showSettings, setShowSettings] = useState(false)
+
+  const handleShowSettings=()=>{
+    setShowSettings(!showSettings)
+  
+  }
+  
+  
   return (
     <nav className="navBar__container">
       <ul className="neon-menu">
@@ -23,9 +31,13 @@ const NavBar = () => {
         <li>
           <a href="#contacto">{t("Navbar.contact")}</a>
         </li>
-        <li>
-          <Language />
-        </li>
+        
+        <li onClick={handleShowSettings}> <i className ='bx bx-cog bx-flip-vertical' ></i> </li>
+        
+        {showSettings
+        ?  <div className="leng"><Language /></div>
+        :"" }
+
       </ul>
     </nav>
   );

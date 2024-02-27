@@ -27,10 +27,10 @@ const Inicio = () => {
       </div>
 
 
-      {/* <div className="fondo__imagen">
+      <div className="fondo__imagen">
         <img src="/img/teorianudos-euler200.png" alt="img programer" />
       </div>
-     */}
+     
     
     </section>
   );
