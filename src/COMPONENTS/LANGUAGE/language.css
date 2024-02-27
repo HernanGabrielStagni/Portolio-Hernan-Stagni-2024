@@ -4,7 +4,7 @@
     background-color: rgb(50, 43, 156);
  
     
-    left: 10px;
+    left: 15px;
     top: 50px;
     font-size: 1rem;
 
@@ -12,6 +12,7 @@
 
 .opciones{
 display: flex;
+flex-direction: column;
 width: 100%;
 background-color: rgb(27, 93, 192);
 }

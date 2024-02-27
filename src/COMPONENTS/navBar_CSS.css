@@ -16,6 +16,7 @@
  
  **********************************
  .neon-menu {
+
   list-style: none;
   padding: 0;
   margin: 0;
@@ -26,11 +27,11 @@
   color: rgb(65, 13, 253); /* color verde para el texto */
   text-decoration: none;
   font-weight: bold;
-  font-size: .9rem;
+  font-size: .8rem;
 }
 
 .neon-menu li a:hover {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   transition: transform 0.8s ease-in-out;
 }
 
@@ -54,11 +55,13 @@
   transform: scaleX(1);
 }
 
-body {
-  background-color: black;
-}
+/* body {
+  background-color: rgb(228, 60, 60);
+} */
 /*******************************************/
 
-.leng{
-position: relative;
-}
+/* .leng{
+position: relative; 
+padding: -1em;
+background-color: #0f0;
+} */

@@ -18,7 +18,9 @@ const NavBar = () => {
   
   return (
     <nav className="navBar__container">
+
       <ul className="neon-menu">
+      
         <li>
           <a href="#inicio">{t("Navbar.home")}</a>
         </li>
@@ -32,7 +34,9 @@ const NavBar = () => {
           <a href="#contacto">{t("Navbar.contact")}</a>
         </li>
         
-        <li onClick={handleShowSettings}> <i className ='bx bx-cog bx-flip-vertical' ></i> </li>
+        <li onClick={handleShowSettings}>
+           <i className ='bx bx-cog bx-flip-vertical' ></i>
+        </li>
         
         {showSettings
         ?  <div className="leng"><Language /></div>
