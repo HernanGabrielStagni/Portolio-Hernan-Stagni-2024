@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import ButtonWhatsapp from "./ButtonWhatsapp/ButtonWhatsapp";
 import Whatsapp from "./WHATSAPP/Whatsapp";
 
+
 const Inicio = () => {
   const { t } = useTranslation();
 
@@ -22,11 +23,15 @@ const Inicio = () => {
 
         <Whatsapp />
        
+
       </div>
 
-      <div className="fondo__imagen">
+
+      {/* <div className="fondo__imagen">
         <img src="/img/teorianudos-euler200.png" alt="img programer" />
       </div>
+     */}
+    
     </section>
   );
 };

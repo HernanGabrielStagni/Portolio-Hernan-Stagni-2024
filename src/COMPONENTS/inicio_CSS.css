@@ -1,4 +1,6 @@
-#inicio {
+
+ /* Contenedor  general con imagen de fondo */
+ #inicio {
    
   background-image: URL('/img/fondo\ teclado_Movile_Tecnología\ y\ Gaming\ Sencillo\ Azul\ Oscuro.png');
   height: 100vh;
@@ -14,7 +16,7 @@
 }
 
 
- /* Contenedor  general de la presentacion */
+ /* Contenedor  general de la (Nombre + Presentacion) */
 .presentation {
   width: 100%;
   margin-top: 35px;
@@ -25,17 +27,18 @@
   padding: 1em 1em 0 1em;
   gap: 0em;
   text-align: center;
+   }
  
-  }
-  /* Hernán Gabriel Stagni */
+   /* Titulo Hernán Gabriel Stagni */
   .presentation h1{ 
     border: solid red;
+    border-radius: 10px;
       color: orangered;
-      font-size: 2.rem;
+      font-size: 1.4rem;
       padding: .5em 0.2em ;
     }
   
-    /*Desarrollador Web*/
+    /*Presentacion " Titulo "Desarrollador Web" */
     .presentation h2{
       color: rgb(252, 252, 252);
       font-size: 1.5rem;
@@ -43,7 +46,7 @@
     margin-top: .5em;
     }
 
-/*Desarrollador Web*/
+/*Desarrollador Sutitulo  "Full Stack"  */
 .presentation h3{
 /* background-color: aqua; */
 margin-top: .2em;
@@ -51,12 +54,13 @@ color: rgb(252, 252, 252);
 font-size: 1.2rem;
 }
 
-/*texto de presentacion*/
+/*texto de presentacion largo*/
   .presentation p {
       padding: 0 1em;
       font-size: 1.rem;
     }
 
+    /*Contenedor de botones Descarga + Whatsapp*/
     .descarga__whatsapp{
       /* background-color: rgb(129, 5, 113); */
       display: flex;
@@ -69,18 +73,8 @@ font-size: 1.2rem;
       
       }
 
-          .bxl-html5 {
-            font-size: 12em;
-            background: linear-gradient(90deg, #e34c26, #f06529, #b7b7b7);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-          }
-
-
-
-
-    /*contenedor donde esta la imagen nudo*/
+         
+    /*contenedor donde esta la imagen nudo- Animado*/
 
   .fondo__imagen {
   /* background-color: rgb(66, 111, 151); */
@@ -89,17 +83,11 @@ font-size: 1.2rem;
   justify-content:center;
   align-items: end;
   /* background-color: blue; */
+  margin-top: 0px;
+  margin-bottom: 65px;
   }
 
-  .fondo__imagen {
-    margin-top: 0px;
-    margin-bottom: 65px;
-  }
-
-
-
-
-
+  
 
   /*animacion nudo*/
   @keyframes rotacion {
@@ -122,22 +110,15 @@ font-size: 1.2rem;
 
 
 
-  /*FONDO DE la imagen nudo*/
+  /* imagen Nudo-Animado*/
   
   .fondo__imagen img {
      width: 100%;
       /* background-color:rgb(207, 191, 191); */
  
       /* margin-top: 25%;  */
-      animation: rotacion 8s linear infinite; 
+      animation: rotacion 10s linear infinite; 
     }
 
-  .container_nudo{
-  position:relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-color: aqua; */
-  }
+
+

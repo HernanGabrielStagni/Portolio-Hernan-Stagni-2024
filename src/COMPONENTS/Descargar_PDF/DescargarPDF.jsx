@@ -11,11 +11,11 @@ const DescargarPDF = () => {
       href={urlPDF} target="_blank">
         {/* <button className="button"> */}
         
-            {/* <i class="bx bxs-cloud-download bx-flashing"></i> */}
-            {/* <i class='bx bxs-cloud-download bx-fade-up' ></i> */}
+            {/* <i className="bx bxs-cloud-download bx-flashing"></i> */}
+            {/* <i className='bx bxs-cloud-download bx-fade-up' ></i> */}
            
             <div className="circulo__descarga">
-              <i class="bx bxs-cloud-download bx-tada"></i>
+              <i className="bx bxs-cloud-download bx-tada"></i>
               <h3>Descargar </h3>
               <h2>CV</h2>
               <br />
