@@ -8,19 +8,16 @@ import Language from "./LANGUAGE/Language";
 
 const NavBar = () => {
   const { t } = useTranslation();
-  const [showSettings, setShowSettings] = useState(false)
+  const [currentLanguage, setCurrentLanguage] = useState("en");
+  const [showSettings, setShowSettings] = useState(false);
 
-  const handleShowSettings=()=>{
-    setShowSettings(!showSettings)
-  
-  }
-  
-  
+  const handleShowSettings = () => {
+    setShowSettings(!showSettings);
+  };
+
   return (
     <nav className="navBar__container">
-
       <ul className="neon-menu">
-      
         <li>
           <a href="#inicio">{t("Navbar.home")}</a>
         </li>
@@ -33,14 +30,19 @@ const NavBar = () => {
         <li>
           <a href="#contacto">{t("Navbar.contact")}</a>
         </li>
-        
+
         <li onClick={handleShowSettings}>
-           <i className ='bx bx-cog bx-flip-vertical' ></i>
+          <i className="bx bx-cog bx-flip-vertical"></i>
         </li>
-        
-        {showSettings
-        ?  <div className="leng"><Language /></div>
-        :"" }
+
+        {showSettings 
+        ? (<div className="leng">
+            <Language 
+            currentLanguage={currentLanguage} 
+            setCurrentLanguage={setCurrentLanguage}/>
+          </div>)
+        : ("")
+        }
 
       </ul>
     </nav>
