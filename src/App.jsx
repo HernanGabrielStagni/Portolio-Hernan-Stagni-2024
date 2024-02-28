@@ -12,9 +12,9 @@ function App() {
       <NavBar className='navBar'/>
       
       <Inicio />
-     
-      <Skills/>
       <Footer />
+      <Skills/>
+    
     </main>
   );
 }

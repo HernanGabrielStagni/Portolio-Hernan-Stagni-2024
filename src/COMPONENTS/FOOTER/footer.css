@@ -3,10 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: fixed;
+    bottom: 5px;
     background-color: #f14343;
     width: 100%;
     height: 35px;
     /* overflow: hidden; */
+    z-index: 15;
     }
   
   ul {
@@ -18,6 +22,11 @@
    
   }
 
-  li{
+  .li{
+
+  }
+
+  .bx-cog {
     color: white;
+    font-size: 30px;
   }

@@ -17,7 +17,7 @@ const Language = ({currentLanguage,setCurrentLanguage}) => {
       {/* <p>{t('welcomeMessage')}</p> */}
 
       <div className="opciones">
-        <p className="Label__idioma">Idioma🚹</p>
+        <p className="Label__idioma">Idioma 🚹</p>
 
         <select value={currentLanguage} id="idioma" onChange={cambiarIdioma}>
           

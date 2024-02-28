@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import "../COMPONENTS/navBar_CSS.css";
 import { useTranslation } from "react-i18next";
-import ButtonWhatsapp from "./ButtonWhatsapp/ButtonWhatsapp";
-// import ButtonWhatsapp from "./ButtonWhatsapp/ButtonWhatsapp";
-import Whatsapp from "/svg/icon-whatsapp.svg";
+
 import Language from "./LANGUAGE/Language";
 
 const NavBar = () => {
   const { t } = useTranslation();
-  const [currentLanguage, setCurrentLanguage] = useState("en");
-  const [showSettings, setShowSettings] = useState(false);
+  // const [currentLanguage, setCurrentLanguage] = useState("en");
+  // const [showSettings, setShowSettings] = useState(false);
 
   const handleShowSettings = () => {
     setShowSettings(!showSettings);
@@ -31,7 +29,7 @@ const NavBar = () => {
           <a href="#contacto">{t("Navbar.contact")}</a>
         </li>
 
-        <li onClick={handleShowSettings}>
+        {/* <li onClick={handleShowSettings}>
           <i className="bx bx-cog bx-flip-vertical"></i>
         </li>
 
@@ -42,7 +40,7 @@ const NavBar = () => {
             setCurrentLanguage={setCurrentLanguage}/>
           </div>)
         : ("")
-        }
+        } */}
 
       </ul>
     </nav>

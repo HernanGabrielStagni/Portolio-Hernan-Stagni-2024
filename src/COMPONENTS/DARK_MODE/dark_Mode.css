@@ -1,25 +1,25 @@
-.container__language{
+.container__darkMode{
     position: fixed;
     padding: .5em;
     background-color: rgb(50, 43, 156);
-    border-radius: 15px;
+ border-radius: 10px;
     
-    left: 15px;
+    left: 170px;
     bottom: 50px;
     font-size: 1.5rem;
 
 }
 
-.opciones{
+.opciones_darkMode{
 display: flex;
 flex-direction: column;
-padding: .3em;
 border-radius: 5px;
+padding: .3em;
 width: 100%;
 background-color: rgb(27, 93, 192);
 }
 
-.Label__idioma{
+.Label__darkMode{
 color: white;
 /* font-size: 1rem; */
 }
