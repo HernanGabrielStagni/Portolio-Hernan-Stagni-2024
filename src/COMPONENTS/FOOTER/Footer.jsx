@@ -21,7 +21,8 @@ const Footer = () => {
       <ul>
         <li> <h1>.....  Setting  ..</h1></li>
         <li onClick={handleShowSettings}>
-          <i className="bx bx-cog bx-flip-vertical"></i>
+        {/* "bx bx-cog bx-flip-vertical" */}
+          <i className="bx bx-cog bx-spin"></i>
         </li>
       </ul>
 
