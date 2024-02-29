@@ -1,6 +1,6 @@
 import React from "react";
 import "../WHATSAPP/whatsapp.css";
-import ButtonWhatsapp from "../ButtonWhatsapp/ButtonWhatsapp";
+
 
 const DescargarPDF = () => {
   const urlPDF = "/pdf/CV_Hernan Gabriel Stagni Español 2 .pdf"; // Reemplaza esto con la ruta real de tu archivo PDF

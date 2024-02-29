@@ -2,7 +2,7 @@ import React from "react";
 import DescargarPDF from "../COMPONENTS/Descargar_PDF/DescargarPDF";
 import "../COMPONENTS/inicio_CSS.css";
 import { useTranslation } from "react-i18next";
-import ButtonWhatsapp from "./ButtonWhatsapp/ButtonWhatsapp";
+
 import Whatsapp from "./WHATSAPP/Whatsapp";
 
 
