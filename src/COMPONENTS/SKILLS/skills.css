@@ -1,11 +1,18 @@
+:root{
+  
+  
+}
+
 
 .container__skills{
 background-color: rgb(14, 8, 37); 
 
+/* background-color: rgb(240, 138, 22);  */
+/* height: 100vh; */
 display: flex;
 justify-content: center;
-
 flex-wrap: wrap;
+
 gap: 2em;
 padding: 1em;
 z-index: 0;
@@ -25,23 +32,26 @@ z-index: 0;
     
 
 }
+/*******************************************/
+.title_skills{
+display: block;
+background-color: rgb(65, 88, 117);
+background-color: #1f1818;
+color: white;
+width: 100%;
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+letter-spacing: 1.5px;
+}
+
 
 /*================================================*/
 
 .skill{
-    background: linear-gradient(90deg,rgb(14, 8, 37), #0f0d97, #faf9f9);
-  
-    background: linear-gradient(to bottom right, rgb(14, 8, 37),rgb(14, 8, 37),rgb(14, 8, 37), #ffffff);
-
-    background: radial-gradient(circle at center, rgb(198, 191, 226), rgb(14, 8, 37) ,rgb(14, 8, 37));
-    /* Establece el degradado radial desde el azul eléctrico (#007bff) hasta blanco (#ffffff) */
-    border: 1px solid rgb(14, 8, 37); /* Borde azul eléctrico */
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra azul rgb(14, 8, 37)eléctrico */
-
+   
     background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
     /* Establece el degradado radial con tonos intermedios */
-
-
 
     width:150px;
     height: 150px;
@@ -54,6 +64,7 @@ z-index: 0;
     align-content: center;
     position: relative;
 }
+
 /*================================================*/
 .skill i{
 font-size: 90px;
@@ -124,7 +135,9 @@ padding: .1em;
     font-size: 1.2em;
     text-align: center;
   }
+  
 
+  
 /*================================================*/
   
   .bxl-typescript {
@@ -136,6 +149,7 @@ padding: .1em;
   }
   
   .typescript {
+    
     color: #007acc;
     font-size: 1.em;
     text-align: center;

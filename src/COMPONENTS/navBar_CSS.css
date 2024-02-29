@@ -24,7 +24,7 @@
 
 .neon-menu li a {
   position: relative;
-  color: rgb(65, 13, 253); /* color verde para el texto */
+  color: rgb(65, 13, 253); /* color para el texto */
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
@@ -46,7 +46,7 @@
   height: 1px;
   background-color: #0f0; /* color verde */
   z-index: 1;
-  mix-blend-mode:screen;
+  /* mix-blend-mode:screen; */
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 /* 

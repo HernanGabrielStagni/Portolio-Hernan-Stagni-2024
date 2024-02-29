@@ -15,6 +15,7 @@
   
   ul {
     list-style-type: none;
+    
     gap: .8em;
     display: flex;
     justify-content:space-between;
@@ -22,11 +23,23 @@
    
   }
 
-  .li{
-
-  }
+  
 
   .bx-cog {
     color: white;
     font-size: 30px;
+  }
+
+
+  
+  
+  .icon-container i {
+    animation: spin 10s linear infinite; /* Cambia la velocidad ajustando la duración (en este caso 5s) */
+    /* animation-duration: 8s; */
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
   }

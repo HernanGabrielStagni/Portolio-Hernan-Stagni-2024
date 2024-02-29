@@ -1,4 +1,12 @@
 
+:root{
+  
+  --azul-oscuro:rgb(65, 13, 253); /* color para el texto */
+  --gris-oscuro:#1f1818; /*(Color oscuro de ondo navbar)*/
+
+}
+
+
  /* Contenedor  general con imagen de fondo */
  #inicio {
    

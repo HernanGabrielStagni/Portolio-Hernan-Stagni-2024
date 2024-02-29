@@ -1,29 +1,65 @@
-.container__language{
+:root {
+    --gris-oscuro: #1f1818;
+    --gris-claro: #b7b7b7;
+
+    --gris-oscuro: red;
+
+    --naranja-fuerte: rgb(243, 89, 0); 
+    --naranja-medio: rgb(240, 138, 22);
+
+    --azul-negro: rgb(14, 08, 37);
+    --azul-oscuro: rgb(15, 15, 80);
+    --azul-Medio: blue;
+    --azul-Pastel: rgb(71, 67, 128);
+
+    --celeste-oscuro: #007acc;
+    --celeste-react: #61dbfb;   
+    --celeste-postgres: #336791;
+
+    --verde-agua: rgb(30, 125, 43);
+    --verde-agua: rgb(30, 125, 120);
+    --verde-normal: green;
+    --verde-wsp: #0f8b4f;
+    --verde-pastel: #68a063;
+
+    --dorado-mostaza: rgb(128, 110, 30); /*container lenguaje*/
+    
+    --amarillo-yelow:yellow;
+    --amarillo-java:#f0db4f;
+    --amarillo-suave:wheat;/*shadow container*/
+}
+
+
+
+.container__language {
     position: fixed;
     padding: .5em;
-    background-color: rgb(50, 43, 156);
+    background-color: rgb(128, 110, 30);
     border-radius: 15px;
-    
+    box-shadow: 0px 0px 2px 2px wheat;
+
     left: 15px;
     bottom: 50px;
     font-size: 1.5rem;
 
 }
 
-.opciones{
-display: flex;
-flex-direction: column;
-padding: .3em;
-border-radius: 5px;
-width: 100%;
-background-color: rgb(27, 93, 192);
+.opciones {
+    display: flex;
+    flex-direction: column;
+    padding: .3em;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(30, 120, 120);
+    ;
+    box-shadow: 0px 0px 5px 4px wheat;
 }
 
-.Label__idioma{
-color: white;
-/* font-size: 1rem; */
+.Label__idioma {
+    color: white;
+    /* font-size: 1rem; */
 }
 
-select{
+select {
     font-size: 1rem;
 }
