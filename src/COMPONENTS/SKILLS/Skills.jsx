@@ -2,7 +2,7 @@ import React from "react";
 import "./skills.css";
 const Skills = () => {
   return (
-    <section className="container__skills">
+    <section className="container__skills" id='skills'>
       {/* <div className="skills"> */}
 
         <title className="title_skills">Skills</title>

@@ -20,11 +20,8 @@ const Inicio = () => {
 
       <div className="descarga__whatsapp">
         <DescargarPDF />
-
         <Whatsapp />
-       
-
-      </div>
+       </div>
 
 
       <div className="fondo__imagen">

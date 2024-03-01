@@ -16,11 +16,13 @@ const NavBar = () => {
   return (
     <nav className="navBar__container">
       <ul className="neon-menu">
+
+        
         <li>
           <a href="#inicio">{t("Navbar.home")}</a>
         </li>
         <li>
-          <a href="#sobre-mi">{t("Navbar.about")}</a>
+          <a href="#skills">{t("Navbar.about")}</a>
         </li>
         <li>
           <a href="#proyects">{t("Navbar.proyects")}</a>
