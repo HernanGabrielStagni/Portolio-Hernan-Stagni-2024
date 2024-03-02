@@ -18,6 +18,13 @@ function Proyect({ nombre, imagen, githubUrl, netlifyUrl }) {
   );
 }
 
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+
 function Proyects() {
   const proyects = [
 
@@ -61,7 +68,8 @@ function Proyects() {
 
   return (
     <section id='proyects'>
-      <h2>My Proyects</h2>
+                     
+      <h2 className='title__proyects'>My Proyects</h2>
       <div className="proyects-container">
       {/* llamo a proyect y le paso uno a uno los elementos completos */}
         {proyects.map((proyect, index) => (

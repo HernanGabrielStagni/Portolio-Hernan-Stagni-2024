@@ -20,8 +20,7 @@ function App() {
       <Skills/>
       <BannerSkills/>
       <Proyects/>
-    
-      {/* <Proyects/> */}
+         
     </main>
   );
 }
