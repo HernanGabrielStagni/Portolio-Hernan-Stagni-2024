@@ -5,7 +5,7 @@ import Footer from "./COMPONENTS/FOOTER/Footer";
 import Skills from "./COMPONENTS/SKILLS/Skills";
 import BannerSkills from "./COMPONENTS/BANNER_SKILLS/BannerSkills";
 import AboutMe from "./COMPONENTS/ABOUT_ME/AboutMe";
-import Proyects from "./PROYECTS/Proyects";
+import Proyects from "./COMPONENTS/PROYECTS/Proyects";
 
 
 
@@ -19,6 +19,7 @@ function App() {
       <AboutMe/> 
       <Skills/>
       <BannerSkills/>
+      <Proyects/>
     
       {/* <Proyects/> */}
     </main>

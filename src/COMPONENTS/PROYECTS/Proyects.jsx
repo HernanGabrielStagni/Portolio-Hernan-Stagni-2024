@@ -63,6 +63,7 @@ function Proyects() {
     <section id='proyects'>
       <h2>My Proyects</h2>
       <div className="proyects-container">
+      {/* llamo a proyect y le paso uno a uno los elementos completos */}
         {proyects.map((proyect, index) => (
           <Proyect key={index} {...proyect} />
         ))}
