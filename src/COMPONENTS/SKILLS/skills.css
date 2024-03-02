@@ -9,7 +9,7 @@
 background-color: rgb(14, 8, 37); 
 
 /* background-color: rgb(240, 138, 22);  */
-height: 100vh; 
+/* height: 100vh;  */
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -19,20 +19,20 @@ padding: 3em 0em 4em 0em;
 z-index: 0;
 }
 
-
- .Skills {
+ 
+ /* .Skills {
     background-color: #1f1818;
     font-size: 2em;
     color:rgb(42, 14, 153); 
     text-shadow:1px 1px 5px  white;
     font-weight: 700;
-    letter-spacing: 3px; /* Añade 2 píxeles de espacio entre caracteres */
+    letter-spacing: 3px; 
     display: flex;
     justify-content: center;
     align-items: center;
  
 
-}
+} */
 /*******************************************/
 .title_skills{
 display: block;

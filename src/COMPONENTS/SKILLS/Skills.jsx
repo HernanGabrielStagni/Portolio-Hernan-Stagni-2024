@@ -22,15 +22,15 @@ const Skills = () => {
           <p className="javascript">JavaScript</p>
         </article>
 
-        <article className="skill">
+        {/* <article className="skill">
           <i className="bx bxl-typescript"></i>
           <p className="typescript">TypeScript</p>
-        </article>
+        </article> */}
 
-        <article className="skill">
+        {/* <article className="skill">
           <i className="bx bxl-vuejs"></i>
           <p className="vue">Vue.js</p>
-        </article>
+        </article> */}
 
         <article className="skill">
           <i className="bx bxl-react"></i>
