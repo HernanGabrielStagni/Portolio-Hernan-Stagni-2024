@@ -7,8 +7,10 @@
 
 
 html {
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: Georgia, 'Times New Roman', Times, serif;    
+ 
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+
 }
 
 body {
@@ -20,7 +22,9 @@ body {
 h1,h2 ,h3 ,h4, p, ul, select {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;    
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+       
 }
 
 ul {

@@ -1,0 +1,62 @@
+
+
+
+.form__container{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    padding: 1em 3em;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* max-width: 900px; */
+   
+}
+
+textarea{
+    background-color: rgb(170, 170, 169);
+}
+
+.form__header{
+    font-size: 3vw;
+    background-color: rgb(128, 110, 30);
+    gap: 1em;
+    padding: 0 1em ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+ 
+    }
+
+    .form__header h3 {
+    display: block;  
+    width: 100%;
+    /* background-color: aqua;   */
+    }
+    .form__header h2 {
+        display: block;  
+        /* background-color: aqua;   */
+        width: 100%;
+        }
+
+    
+    .buttonClose{
+        /* width: 30px; */
+        background-color: gray;
+    }
+
+.form__form{
+    background-color:darkslategray ;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1.2em;
+
+}
+.form__form button{
+
+    background-color:grey;
+    width: 50px;
+    
+}
+

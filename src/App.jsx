@@ -6,6 +6,7 @@ import Skills from "./COMPONENTS/SKILLS/Skills";
 import BannerSkills from "./COMPONENTS/BANNER_SKILLS/BannerSkills";
 import AboutMe from "./COMPONENTS/ABOUT_ME/AboutMe";
 import Proyects from "./COMPONENTS/PROYECTS/Proyects";
+import ContactMe from "./COMPONENTS/CONTACT_ME/ContactMe";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Skills/>
       <BannerSkills/>
       <Proyects/>
+      <ContactMe/>
          
     </main>
   );

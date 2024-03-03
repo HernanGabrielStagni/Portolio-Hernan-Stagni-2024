@@ -28,7 +28,7 @@ const NavBar = () => {
           <a href="#proyects">{t("Navbar.proyects")}</a>
         </li>
         <li>
-          <a href="#contacto">{t("Navbar.contact")}</a>
+          <a href="#contactMe">{t("Navbar.contact")}</a>
         </li>
 
         {/* <li onClick={handleShowSettings}>
