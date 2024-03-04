@@ -3,13 +3,8 @@
 .form__container {
     width: 100%;
     background-color: rebeccapurple;
-    /* padding: 1em 3em; */
-    /*gap: 1em; */
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
-    /* max-width: 900px; */
-
 }
 
 textarea {
@@ -24,18 +19,20 @@ textarea {
     height: 55px;
     gap: 1em;
     padding: .5em .5em;
-  
+
     display: flex;
     justify-content: space-between;
 
-    h2 {/*Gracias por contactarte*/
+    h2 {
+        /*Gracias por contactarte*/
         display: grid;
         align-items: center;
         width: 100%;
         font-size: 3vh;
     }
 
-    .buttonClose {/*Boton de cierre del formulario ❌ */
+    .buttonClose {
+        /*Boton de cierre del formulario ❌ */
         border-radius: 10px;
         box-shadow: 0px 0px 2px 2px wheat;
         background-color: gray;
@@ -43,8 +40,9 @@ textarea {
 }
 
 
-/* Contenedor general del formulario */
+
 .form__form {
+    /* Contenedor general del formulario */
     background-color: darkslategray;
     color: black;
     display: flex;
@@ -53,8 +51,8 @@ textarea {
     gap: 1.2em;
     /* height: 100vh; */
     font-size: 2em;
-   input {
-        background-color: rgb(62, 219, 41);
+
+    input {
         background-color: rgb(233, 222, 199);
         border-radius: 5px;
         box-shadow: 0px 0px 2px 2px wheat;
@@ -63,21 +61,20 @@ textarea {
         padding: .5em;
     }
 
-   textarea {
+    textarea {
         /*CONTENEDOR DE NOTA DEL MENSAJE*/
         background-color: rgb(222, 333, 244);
         border-radius: 5px;
         box-shadow: 0px 0px 2px 2px wheat;
         padding: .5em;
         font-size: 18px;
-
     }
 
-   button {/*boton del formulario para el envio "send"*/
+    button {
+        /*boton del formulario para el envio "send"*/
         background-color: rgb(128, 110, 30);
         border-radius: 10px;
         box-shadow: 0px 0px 2px 2px wheat;
-
         width: 60px;
         height: 35px;
         font-size: 20px;
