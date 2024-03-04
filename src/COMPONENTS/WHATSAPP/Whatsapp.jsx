@@ -16,7 +16,7 @@ const DescargarPDF = () => {
           <div className="circulo__general">
             {/* <i className='bx bxl-whatsapp' ></i> */}
             <i className="bx bxl-whatsapp bx-tada bx-flip-horizontal"></i>
-            <h3 className="titulo__whatsapp">Whatsapp</h3>
+            <h3 className="titulo__whatsapp">WhatsApp</h3>
           </div>
         </div>
       </a>

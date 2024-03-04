@@ -1,15 +1,16 @@
+:root {
 
-:root{
-  
-  --azul-oscuro:rgb(65, 13, 253); /* color para el texto */
-  --gris-oscuro:#1f1818; /*(Color oscuro de ondo navbar)*/
+  --azul-oscuro: rgb(65, 13, 253);
+  /* color para el texto */
+  --gris-oscuro: #1f1818;
+  /*(Color oscuro de ondo navbar)*/
 
 }
 
 
- /* Contenedor  general con imagen de fondo */
- #inicio {
-   
+/* Contenedor  general con imagen de fondo */
+#inicio {
+
   background-image: URL('/img/fondo\ teclado_Movile_Tecnología\ y\ Gaming\ Sencillo\ Azul\ Oscuro.png');
   height: 100vh;
   background-repeat: no-repeat;
@@ -19,114 +20,113 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
- 
- 
+
+
 }
 
 
- /* Contenedor  general de la (Nombre + Presentacion) */
+/* Contenedor  general de la (Nombre + Presentacion) */
 .presentation {
   width: 100%;
   margin-top: 35px;
   /* background-color: #e34c26; */
-  background-image:'/img/fondo linkering.png'; 
+  background-image: '/img/fondo linkering.png';
   display: grid;
   justify-content: center;
   padding: 1em 1em 0 1em;
   gap: 0em;
   text-align: center;
-   }
- 
-   /* Titulo Hernán Gabriel Stagni */
-  .presentation h1{ 
-    border: solid red;
-    border-radius: 10px;
-      color: orangered;
-      font-size: 1.4rem;
-      padding: .5em 0.2em ;
-    }
-  
-    /*Presentacion " Titulo "Desarrollador Web" */
-    .presentation h2{
-      color: rgb(252, 252, 252);
-      font-size: 1.5rem;
-      /* background-color: rgb(235, 66, 36); */
-    margin-top: .5em;
-    }
+}
+
+/* Titulo Hernán Gabriel Stagni */
+.presentation h1 {
+  border: solid red;
+  border-radius: 10px;
+  color: orangered;
+  font-size: 1.4rem;
+  padding: .5em 0.2em;
+}
+
+/*Presentacion " Titulo "Desarrollador Web" */
+.presentation h2 {
+  color: rgb(252, 252, 252);
+  font-size: 1.5rem;
+  /* background-color: rgb(235, 66, 36); */
+  margin-top: .5em;
+}
 
 /*Desarrollador Sutitulo  "Full Stack"  */
-.presentation h3{
-/* background-color: aqua; */
-margin-top: .2em;
-color: rgb(252, 252, 252);
-font-size: 1.2rem;
+.presentation h3 {
+  /* background-color: aqua; */
+  margin-top: .2em;
+  color: rgb(252, 252, 252);
+  font-size: 1.2rem;
 }
 
 /*texto de presentacion largo*/
-  .presentation p {
-      padding: 0 1em;
-      font-size: 1.rem;
-    }
+.presentation p {
+  padding: 0 1em;
+  font-size: 1.rem;
+}
 
-    /*Contenedor de botones Descarga + Whatsapp*/
-    .descarga__whatsapp{
-      /* background-color: rgb(129, 5, 113); */
-      display: flex;
-      justify-content:space-around;
-      align-content: center ;
-      width:100%;
-      position: relative;
-      gap:  0 1em;
-      padding: 0 1em;
-      
-      }
+/*Contenedor de botones Descarga + Whatsapp*/
+.descarga__whatsapp {
+  /* background-color: rgb(129, 5, 113); */
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  position: relative;
+  gap: 0 1em;
+  padding: 0 1em;
 
-         
-    /*contenedor donde esta la imagen nudo- Animado*/
+}
 
-  .fondo__imagen {
+
+/*contenedor donde esta la imagen nudo- Animado*/
+
+.fondo__imagen {
   /* background-color: rgb(66, 111, 151); */
   width: 130px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: end;
   /* background-color: blue; */
   margin-top: 0px;
   margin-bottom: 95px;
+  
+}
+/* imagen Nudo-Animado*/
+
+.fondo__imagen img {
+  width: 100%;
+  filter: drop-shadow(0px 0px 5px rgb(206, 151, 88));
+  animation: rotacion 10s linear infinite;
+  
+}
+
+
+/*animacion nudo*/
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+
   }
 
-  
+  25% {
+    transform: rotate(90deg);
+  }
 
-  /*animacion nudo*/
-  @keyframes rotacion {
-      from {
-          transform: rotate(0deg);
-     
-        }
-        25%{
-          transform: rotate(90deg);
-        } 
-        50%{
-          transform: rotate(180deg);
-        } 
-      to {
-          transform: rotate(360deg);
-              
-        }
+  50% {
+    transform: rotate(180deg);
+  }
 
-      }
+  to {
+    transform: rotate(360deg);
 
+  }
 
-
-  /* imagen Nudo-Animado*/
-  
-  .fondo__imagen img {
-     width: 100%;
-      /* background-color:rgb(207, 191, 191); */
- filter: drop-shadow(0px 0px   10px rgb(206, 151, 88));
-      /* margin-top: 25%;  */
-      animation: rotacion 10s linear infinite; 
-    }
+}
 
 
 

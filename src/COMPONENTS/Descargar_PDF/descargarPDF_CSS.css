@@ -1,4 +1,3 @@
-
 /* .container_general
 .etiqueta__a {
     background-color: aqua;
@@ -12,89 +11,96 @@
 
 /*  */
 /*//////////////////////////////////////////*/
-.circulo__descarga{
-    
-        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra azul rgb(14, 8, 37)eléctrico */
-        background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
-        /* Establece el degradado radial con tonos intermedios */
-    
-        width:120px;
-        height: 120px;
-        padding: 0em;
-        border-radius: 50%;
-        border:groove 5px rgb(43, 26, 141);
-        box-shadow: 0px 0px 2px 2px rgb(62, 64, 80);
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        position: relative;
-    }
-    /*================================================*/
+.circulo__descarga {
 
-    /*  icono font de Descarga */
-    .circulo__descarga .bx {
-    font-size: 60px;
-    position: absolute;
-    left: 20%;
-    transform: translateX(-50%);
-    padding: .1em;
-    color: red;
-    text-shadow: 2px 2px 9px white;
-    }
-    
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  /* Sombra azul rgb(14, 8, 37)eléctrico */
+  background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
+  /* Establece el degradado radial con tonos intermedios */
 
-    /* Titulo "Descargar"  */   
-    .circulo__descarga h3 {
-        font-family: 'Times New Roman', Times, serif;
-        color: black;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size:18px ;
-        text-shadow: 1px -1px  4px rgb(250, 247, 247);
-        font-weight: 700;
-        bottom: 30px;  
-          }
+  width: 120px;
+  height: 120px;
+  padding: 0em;
+  border-radius: 50%;
+  border: groove 5px rgb(43, 26, 141);
+  box-shadow: 0px 0px 2px 2px rgb(62, 64, 80);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
 
- /* Titulo "CV"  */ 
-    .circulo__descarga h2 {
-      font-family: 'Times New Roman', Times, serif;
-      color: black;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 1.2em;
-      letter-spacing: 3px;
-      text-shadow: 1px 1px  2px rgb(250, 247, 247);
-      font-weight: 700;
-      bottom: 10px;  
-        }
+/*================================================*/
 
-       
+/*  icono font de Descarga */
+.circulo__descarga .bx {
+  font-size: 60px;
+  position: absolute;
+  left: 20%;
+  transform: translateX(-50%);
+  padding: .1em;
+  color: red;
+  text-shadow: 2px 2px 9px white;
+}
 
-    
+
+/* Titulo "Descargar"  */
+.circulo__descarga h3 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: rgb(26, 44, 9);
+  text-shadow: 1px -1px 3px rgb(148, 144, 158);
+  filter: drop-shadow(0px 0px 5px #f9faf9);
+  font-weight: 700;
+  bottom: 30px;
+}
+
+/* Titulo "CV"  */
+.circulo__descarga h2 {
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  color: black;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  color: rgb(26, 44, 9);
+  text-shadow: 1px -1px 3px rgb(232, 231, 236);
+  filter: drop-shadow(0px 0px 6px #fbfdfb);
+  font-weight: 700;
+  bottom: 10px;
+}
+
+
+
+
 /*//////////////////////////////////////////*/
 
 
 
 
 .container_general button {
-    margin-top: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    /* font-size: 15px; */
-    width: 100%;
-    gap: 1em;
-    
-    
-    /* border: none; */
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* font-size: 15px; */
+  width: 100%;
+  gap: 1em;
 
-    /* border-radius: 10px; */
-    /* background-color: rgb(52, 216, 74); */
-    background-color: transparent; 
-    font-weight: 600;
-    cursor: pointer;
+
+  /* border: none; */
+
+  /* border-radius: 10px; */
+  /* background-color: rgb(52, 216, 74); */
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
 }
-

@@ -40,11 +40,17 @@
   color: rgb(65, 13, 253); /* color para el texto */
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 1em 0;
+  .bx-home{
+    color: #3c15c7;
+    margin-top: -8px;
+    font-size: 30px;
+    font-weight: 700;
+  }
 }
 
-.neon-menu li a:hover {
+.neon-menu li a:hover, .bx-home {
   
   top: 10px;
   font-size: 1.2rem;
@@ -73,11 +79,4 @@
 
 /* body {
   background-color: rgb(228, 60, 60);
-} */
-/*******************************************/
-
-/* .leng{
-position: relative; 
-padding: -1em;
-background-color: #0f0;
 } */

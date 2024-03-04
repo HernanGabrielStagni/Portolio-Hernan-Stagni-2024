@@ -19,7 +19,9 @@ const NavBar = () => {
 
         
         <li>
-          <a href="#inicio">{t("Navbar.home")}</a>
+          {/* <a href="#inicio">{t("Navbar.home")}</a> */}
+          <a href="#inicio"><i class='bx bx-home' ></i></a>
+          
         </li>
         <li>
           <a href="#skills">{t("Navbar.about")}</a>
