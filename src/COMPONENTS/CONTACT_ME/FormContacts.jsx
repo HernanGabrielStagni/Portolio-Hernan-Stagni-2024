@@ -11,13 +11,11 @@ const FormContact = ({setShowForm, handleShowForm}) => {
 
   return (
     <div id='formContacts' className="form__container">
-      <header className="form__header">
-           <h2>Gracias por contactarte...!</h2>
-           {/* <h3>Gracias por contactarte, me comunicaré a la brevedad...!</h3> */}
-           <button onClick={handleShowForm} className="buttonClose"> ❌</button>
-
-       
-      </header>     
+          <header className="form__header">
+              <h2>Gracias por contactarte...!</h2>
+              {/* <h3>Gracias por contactarte, me comunicaré a la brevedad...!</h3> */}
+              <button onClick={handleShowForm} className="buttonClose"> ❌</button>
+          </header>     
      
           <form className="form__form"
             // action="https://formsubmit.co/hernangabrielst@gmail.com"

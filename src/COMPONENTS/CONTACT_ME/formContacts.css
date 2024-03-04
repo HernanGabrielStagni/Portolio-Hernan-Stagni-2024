@@ -1,62 +1,85 @@
-
-
-
-.form__container{
+/**/
+/*Contenedor general*/
+.form__container {
     width: 100%;
-    /* background-color: rebeccapurple; */
-    padding: 1em 3em;
-    gap: 1em;
+    background-color: rebeccapurple;
+    /* padding: 1em 3em; */
+    /*gap: 1em; */
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     /* max-width: 900px; */
-   
+
 }
 
-textarea{
+textarea {
     background-color: rgb(170, 170, 169);
 }
 
-.form__header{
-    font-size: 3vw;
+/*contnedor del titulo y el boton cerrar el formulario ❌*/
+.form__header {
+
     background-color: rgb(128, 110, 30);
+    color: black;
+    height: 55px;
     gap: 1em;
-    padding: 0 1em ;
-    text-align: center;
+    padding: .5em .5em;
+  
     display: flex;
     justify-content: space-between;
- 
-    }
 
-    .form__header h3 {
-    display: block;  
-    width: 100%;
-    /* background-color: aqua;   */
-    }
-    .form__header h2 {
-        display: block;  
-        /* background-color: aqua;   */
+    h2 {/*Gracias por contactarte*/
+        display: grid;
+        align-items: center;
         width: 100%;
-        }
+        font-size: 3vh;
+    }
 
-    
-    .buttonClose{
-        /* width: 30px; */
+    .buttonClose {/*Boton de cierre del formulario ❌ */
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px 2px wheat;
         background-color: gray;
     }
+}
 
-.form__form{
-    background-color:darkslategray ;
+
+/* Contenedor general del formulario */
+.form__form {
+    background-color: darkslategray;
+    color: black;
     display: flex;
     flex-direction: column;
-    padding: 2em;
+    padding: 2em .5em;
     gap: 1.2em;
+    /* height: 100vh; */
+    font-size: 2em;
+   input {
+        background-color: rgb(62, 219, 41);
+        background-color: rgb(233, 222, 199);
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px 2px wheat;
+        height: 40px;
+        font-size: 18px;
+        padding: .5em;
+    }
 
+   textarea {
+        /*CONTENEDOR DE NOTA DEL MENSAJE*/
+        background-color: rgb(222, 333, 244);
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px 2px wheat;
+        padding: .5em;
+        font-size: 18px;
+
+    }
+
+   button {/*boton del formulario para el envio "send"*/
+        background-color: rgb(128, 110, 30);
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px 2px wheat;
+
+        width: 60px;
+        height: 35px;
+        font-size: 20px;
+    }
 }
-.form__form button{
-
-    background-color:grey;
-    width: 50px;
-    
-}
-
