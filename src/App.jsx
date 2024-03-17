@@ -19,7 +19,7 @@ function App() {
       <Skills />
       <BannerSkills />
       <Proyects />
-      <ProStatic />
+      {/* <ProStatic /> */}
       <ContactMe />
     </main>
   );
