@@ -5,6 +5,8 @@
     "Navbar.about": "About",
     "Navbar.proyects": "Proyects",
     "Navbar.contact": "Contact",
+
+    "inicio.BienvenidoPortafolio":"Wellcome to my Portafolio",
     "inicio.name":"Hernán Gabriel Stagni",
     "inicio.webDeveloper":"Web Developer",
     "inicio.fullStack":" * full Stack *",

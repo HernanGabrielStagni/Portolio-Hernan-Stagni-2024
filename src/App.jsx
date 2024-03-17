@@ -7,6 +7,8 @@ import BannerSkills from "./COMPONENTS/BANNER_SKILLS/BannerSkills";
 import AboutMe from "./COMPONENTS/ABOUT_ME/AboutMe";
 import Proyects from "./COMPONENTS/PROYECTS/Proyects";
 import ContactMe from "./COMPONENTS/CONTACT_ME/ContactMe";
+import MyCarouselComponent from "./COMPONENTS/SLIDER/MyCarouselComponent";
+import ProStatic from "./COMPONENTS/PROYECTS/ProStatic";
 
 
 
@@ -20,7 +22,11 @@ function App() {
       <AboutMe/> 
       <Skills/>
       <BannerSkills/>
+      {/* <div className="div_myCarrusel">
+       <MyCarouselComponent/>
+      </div> */}
       <Proyects/>
+      {/* <ProStatic/> */}
       <ContactMe/>
          
     </main>

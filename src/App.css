@@ -13,6 +13,16 @@
   position: relative;
 }
 
+/*****************************************/
+.div_myCarrusel{
+ margin: auto;
+ text-align: center;
+  width: 35em;
+  
+  /* height: 8em; */
+background-color: aqua;
+
+}
 .navBar{
   display: flex;
   position: fixed;
