@@ -1,8 +1,8 @@
 
 
-const Proyect_card = ({proyect}) => {
+const Proyect_card = ({nombre, imagen, githubUrl, netlifyUrl}) => {
     // {nombre, imagen, githubUrl,netlifyUrl}
-    const { nombre, imagen, githubUrl, netlifyUrl } = proyect;
+    // const { nombre, imagen, githubUrl, netlifyUrl } = proyect;
   return (
     <div className="proyect">
       <img src={imagen} alt={nombre} />
@@ -12,7 +12,7 @@ const Proyect_card = ({proyect}) => {
           Link to ... GitHub
         </a>
         <a href={netlifyUrl} target="_blank" rel="noopener noreferrer">
-          Link to ...Netlify
+          Link to ...Ne........tlify
         </a>
       </div>
     </div>

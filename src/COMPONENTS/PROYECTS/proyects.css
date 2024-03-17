@@ -106,17 +106,17 @@
    
   }
    */
-.descripcion {
+
+   .descripcion {
   display: grid;
   width: 80%;
 
   position: absolute;
-  /* bottom:40px; */
   left: 50%;
   translate: -50%;
-scale: 0;
+  scale: 0;
   opacity: 0;
-  transition: all 1s ease-in-out;
+
   gap: .5em;
   padding: 1em;
   text-shadow: 1px 1px 3px rgb(10, 10, 10);
@@ -132,7 +132,7 @@ scale: 0;
   border-radius: 15px;
   opacity: 1;
   scale: 1;
-  
+  transition: all 1s ease-in-out;
 
 }
 

@@ -39,18 +39,23 @@
 }
 
 /* Titulo Hernán Gabriel Stagni */
-.presentation h1 {
+.presentation  h1 {
   border: solid red;
   border-radius: 10px;
   color: orangered;
   font-size: 1.4rem;
-  padding: .5em 0.2em;
+  padding: .5em 0.3em;
 }
 
 /*Presentacion " Titulo "Desarrollador Web" */
 .presentation h2 {
-  color: rgb(252, 252, 252);
-  font-size: 1.5rem;
+  color:orangered;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgb(13, 13, 14);
+  /* box-shadow: (0px 1px  1px rgb(201, 134, 66)); */
+ 
+  filter: drop-shadow(0px 1px  5px rgb(253, 252, 251)); 
   /* background-color: rgb(235, 66, 36); */
   margin-top: .5em;
 }
@@ -64,8 +69,11 @@
 }
 
 /*texto de presentacion largo*/
+/*Hola , soy un desarrollador web full stack con expreriencioa en *
+HTML, CSS, JavaScript, React, Git y npm.*/
+
 .presentation p {
-  padding: 0 1em;
+  padding: 1em 1em;
   font-size: 1.rem;
 }
 

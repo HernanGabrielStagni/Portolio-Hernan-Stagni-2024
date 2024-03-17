@@ -46,7 +46,7 @@ function Proyect({
           Link to ... GitHub
         </a>
         <a href={netlifyUrl} target="_blank" rel="noopener noreferrer">
-          Link to ...Netlify
+          Link to ..Netlify
         </a>
       </div>
     </div>

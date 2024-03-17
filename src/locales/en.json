@@ -9,7 +9,11 @@
     "inicio.BienvenidoPortafolio":"Wellcome to my Portafolio",
     "inicio.name":"Hernán Gabriel Stagni",
     "inicio.webDeveloper":"Web Developer",
-    "inicio.fullStack":" * full Stack *",
+
+    "inicio.fullStack":"FULL STACK",
+    "inicio.Frontend":"Frontend",
+    "inicio.Backend":"Backend",
+    
     "inicio.presentation":"Hello! I am a full stack web developer with experience in HTML, CSS, JavaScript, React, Git, and npm."
   }
   

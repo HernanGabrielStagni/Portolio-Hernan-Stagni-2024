@@ -21,7 +21,13 @@
   
   /* height: 8em; */
 background-color: aqua;
+}
 
+
+.div_multiCarrusel{
+ display: flex;
+  text-align: center;
+ background-color: rgb(70, 179, 179);
 }
 .navBar{
   display: flex;
