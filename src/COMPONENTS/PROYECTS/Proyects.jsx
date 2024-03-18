@@ -15,12 +15,14 @@ function Proyect({
   const handlePrevius = () => {
     currentImg > 0
       ? (setCurrentImg(currentImg - 1), console.log(currentImg))
-      : (setCurrentImg(2), console.log(currentImg));
+      // : (setCurrentImg(2), 
+      : console.log(currentImg);
   };
   const handleNext = () => {
     currentImg < 2
       ? (setCurrentImg(currentImg + 1), console.log(currentImg))
-      : (setCurrentImg(0), console.log(currentImg));
+      // : (setCurrentImg(2), 
+      : console.log(currentImg);
   };
 
   return (

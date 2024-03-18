@@ -6,6 +6,11 @@ import { useTranslation } from "react-i18next";
 import Whatsapp from "./WHATSAPP/Whatsapp";
 import Typewriter from 'typewriter-effect';
 
+// con esto en cada componente accedemos a las variables en cada lengueje
+//import { useTranslation } from "react-i18next"; (importa el Hook )
+//const { t } = useTranslation();  (baja en t el json)
+//<h1 >{t("inicio.name")}</h1>     (accede a la variable deseada)
+
 const Inicio = () => {
   const { t } = useTranslation();
 
@@ -51,7 +56,8 @@ const Inicio = () => {
        {/* // Hola , soy un desarrollador web full stack con expreriencioa 
        //en HTML, CSS, JavaScript, React, Git y npm. */}
         <p> {t("inicio.presentation")}</p>
-      
+        <p> {t("inicio.invitacion")}</p>
+        
       </div>
 
       <div className="descarga__whatsapp">

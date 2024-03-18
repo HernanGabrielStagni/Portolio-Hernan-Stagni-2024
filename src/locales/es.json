@@ -11,7 +11,12 @@
     "inicio.fullStack":"FULL STACK",
     "inicio.Frontend":"Frontend",
     "inicio.Backend":"Backend",
-    "inicio.presentation":"Hola , soy un desarrollador web full stack con expreriencioa en  HTML, CSS, JavaScript, React, Git y npm."
- 
+    "inicio.presentation":"Bienvenido...!!!, Graicas por visitar mi Portafolio. Soy un desarrollador web dedicado a la creación de soluciones innovadoras y funcionales.",
+    "inicio.invitacion":" Estoy listo para que trabajemos juntos. Contactame...!!!",
+    
+    "DescargarPDF.descargar":"Descargarss",
+    "DescargarPDF.cv":"CV"
+
+
   }
   

@@ -13,7 +13,10 @@
     "inicio.fullStack":"FULL STACK",
     "inicio.Frontend":"Frontend",
     "inicio.Backend":"Backend",
-    
-    "inicio.presentation":"Hello! I am a full stack web developer with experience in HTML, CSS, JavaScript, React, Git, and npm."
+    "inicio.presentation":"Welcome...!!!, Thank you for visiting my Portfolio. I am a web developer dedicated to creating innovative and functional solutions.",
+    "inicio.invitacion":"I am ready for us to work together ... Contact me...!!!",
+    "DescargarPDF.descargar":"Download",
+    "DescargarPDF.cv":"CV" 
+ 
   }
   
