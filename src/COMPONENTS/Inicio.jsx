@@ -1,10 +1,9 @@
-
 import DescargarPDF from "../COMPONENTS/Descargar_PDF/DescargarPDF";
 import "../COMPONENTS/inicio_CSS.css";
 import { useTranslation } from "react-i18next";
 
 import Whatsapp from "./WHATSAPP/Whatsapp";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 
 // con esto en cada componente accedemos a las variables en cada lengueje
 //import { useTranslation } from "react-i18next"; (importa el Hook )
@@ -17,60 +16,67 @@ const Inicio = () => {
   return (
     <section id="inicio">
       <div className="presentation">
-        <h1 >{t("inicio.name")}</h1>
-
-       
-
+        <div className="title__name">
+          <h1>{t("inicio.name")}</h1>
+        </div>
+        <div className="count__visitor">{/*CONTADOR DE VISITANTES*/}
+          <h3 id="visitor" >Eres el visitante N°:</h3>
+          <img
+            src="https://counter11.optistats.ovh/private/contadorvisitasgratis.php?c=suf395k9z411zuz58t3lcusts165hyql"
+            border="0"
+            title="contador de visitas gratis"
+            alt="contador de visitas gratis"
+          />
+        </div>
         <h2 className="title__web">
-  <Typewriter
-    options={{
-      autoStart: true,
-      loop: true, // Desactivamos la repetición de la animación
-      cursor: '', 
-      strings: [t("inicio.webDeveloper")],
-      delay: 75, // Ajustamos el tiempo de escritura para simular una escritura más lenta
-     
-      pauseFor:10000000, // Pausa muy grande
-      // deleteSpeed: 10000000,// Pausa muy grande
-      
-    }}
-  />
-</h2>
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true, // Desactivamos la repetición de la animación
+              cursor: "",
+              strings: [t("inicio.webDeveloper")],
+              delay: 75, // Ajustamos el tiempo de escritura para simular una escritura más lenta
 
- <h3>
-  <Typewriter
-    options={{
-      autoStart: true,
-      loop:true, // repetición de la animación
-      cursor: '_', // Ocultamos el cursor
-      strings:[t("inicio.fullStack"),t("inicio.Frontend"),t("inicio.Backend")], 
+              pauseFor: 10000000, // Pausa muy grande
+              // deleteSpeed: 10000000,// Pausa muy grande
+            }}
+          />
+        </h2>
 
-      delay: 75, // Ajustamos el tiempo de escritura para simular una escritura más lenta
-      deleteSpeed: 90, // Establecemos la velocidad de borrado en 0 para que no haya borrado
-    }}
-  />
-</h3> 
+        <h3>
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true, // repetición de la animación
+              cursor: "_", // Ocultamos el cursor
+              strings: [
+                t("inicio.fullStack"),
+                t("inicio.Frontend"),
+                t("inicio.Backend"),
+              ],
+              delay: 75, // Ajustamos el tiempo de escritura para simular una escritura más lenta
+              deleteSpeed: 90, // Establecemos la velocidad de borrado en 0 para que no haya borrado
+            }}
+          />
+        </h3>
 
-
-  
-       {/* // Hola , soy un desarrollador web full stack con expreriencioa 
+        {/* // Hola , soy un desarrollador web full stack con expreriencioa 
        //en HTML, CSS, JavaScript, React, Git y npm. */}
-        <p> {t("inicio.presentation")}</p>
-        <p> {t("inicio.invitacion")}</p>
-        
+        <div className="presentation__invitacion">
+          <p> {t("inicio.presentation")}</p>
+          <h1> {t("inicio.invitacion")}</h1>{" "}
+          {/*Estoy listo para que trabajemos juntos**/}
+        </div>
       </div>
 
       <div className="descarga__whatsapp">
         <DescargarPDF />
         <Whatsapp />
-       </div>
-
+      </div>
 
       <div className="fondo__imagen">
         <img src="/img/teorianudos-euler200.png" alt="img programer" />
       </div>
-     
-    
     </section>
   );
 };

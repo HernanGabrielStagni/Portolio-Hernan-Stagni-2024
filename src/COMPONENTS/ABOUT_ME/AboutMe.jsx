@@ -1,8 +1,16 @@
 import React from "react";
 import BannerSkills from "../BANNER_SKILLS/BannerSkills";
 import "./aboutMe.css";
+import { useTranslation } from "react-i18next";
+
+// con esto en cada componente accedemos a las variables en cada lengueje
+//import { useTranslation } from "react-i18next"; (importa el Hook )
+//const { t } = useTranslation();  (baja en t el json)
+//<h1 >{t("inicio.name")}</h1>     (accede a la variable deseada)
 
 const AboutMe = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="container__aboutMe" id="skills">
       {/* <article className="div__title"> */}
@@ -11,34 +19,34 @@ const AboutMe = () => {
 
       <article className="div__presentation">
         <div className="pres__aboutMe">
-          <h2> ¡Hola, Bienvenido...! </h2>
+          <h2> {t("AboutMe.encabezado.0")}</h2>
 
-          <h4>¡Gracias por visitar mi portafolio! </h4>
+          <h4>{t("AboutMe.encabezado.1")} </h4>
           <br />
           <p>
-            Soy{" "}
+          {t("AboutMe.encabezado.2")}
+        
+          
             <span>
-              <b>Hernan Gabriel Stagni</b>
+              <b>{t("AboutMe.encabezado.3")}</b>
             </span>
-            , un apasionado desarrollador Full Stack, dedicado a la creación de
-            soluciones web innovadoras y funcionales. 
+            {t("AboutMe.cuerpo.0")}
             <br /> 
             <br /> 
-            Me enfoco en el desarrollo
-            de aplicaciones completas y dinámicas, implementando diversas
-            tecnologias teles como:  <br /><b> "HTML5", "CSS3",
-            "JavaScript", "ReactJS", "Node.js", "Express.js" y "PostgrSQL".</b>
+            {t("AboutMe.cuerpo.1")}<br /><b>  {t("AboutMe.cuerpo.2")}</b>
             <br />
             <br /> 
             
-            Creo en la <b>"mejora continua"</b>, la <b>"comunicación efectiva" </b> y el
-            <b> "trabajo en equipo",</b> para lograr resultados que ofrezcan una
-            experiencia excepcional al usuario.
+            {t("AboutMe.filosofia.0")}
+            
+             {/* <b> {t("AboutMe.filosofia.1")}</b>...<b> {t("AboutMe.filosofia.2")} </b> y el
+            <b>  {t("AboutMe.filosofia.3")}</b>  {t("AboutMe.filosofia.4")}
+           */}
           </p>
           <br />
           <br />
           <h3>
-            Si tienes alguna inquietud, ¡ No dudes en contactarme...!
+          {t("AboutMe.despedida.0")}
           </h3>
         </div>
       </article>

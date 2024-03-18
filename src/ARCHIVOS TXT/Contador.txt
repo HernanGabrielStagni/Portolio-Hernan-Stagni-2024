@@ -1,0 +1,35 @@
+https://www.contadorvisitasgratis.com/
+
+instrucciones
+
+1_ entrar en la pagina y generar un contador
+2_copiar el enlace de arriba e insertarlo en el componente deseado
+3_ se puede borrar la etiqueta <a> ya que sirve solo para redirigir a la pagina
+4_dejar si la img
+5_ponerla dentro de un div y daele estilos
+
+ * JS *
+
+ <div className="count__visitor">{/*CONTADOR DE VISITANTES*/}
+          <h3 id="visitor" >Eres el visitante N°:</h3>
+          <img
+            src="https://counter11.optistats.ovh/private/contadorvisitasgratis.php?c=suf395k9z411zuz58t3lcusts165hyql"
+            border="0"
+            title="contador de visitas gratis"
+            alt="contador de visitas gratis"
+          />
+        </div>
+        
+
+ * CSS *     
+.count__visitor{
+  width: 50%;
+  max-width: 150px;
+  margin: auto;
+  padding: .5em;
+}
+
+#visitor {
+  font-size: .8rem;
+}
+

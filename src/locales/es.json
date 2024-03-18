@@ -1,9 +1,9 @@
 
 {
     "Navbar.home": "Inicio",
-    "Navbar.about": "Acerca",
+    "Navbar.about": "SobreMi",
     "Navbar.contact": "Contacto",
-    "Navbar.proyects": "Proyects",
+    "Navbar.proyects": "Proyectos",
 
     "inicio.name":"Hernán Gabriel Stagni",
     "inicio.BienvenidoPortafolio":"Hola... Bienvenido a mi Portafolio",
@@ -15,8 +15,13 @@
     "inicio.invitacion":" Estoy listo para que trabajemos juntos. Contactame...!!!",
     
     "DescargarPDF.descargar":"Descargarss",
-    "DescargarPDF.cv":"CV"
-
+    "DescargarPDF.cv":"CV",
+    "AboutMe.encabezado":["¡Hola, Bienvenido...!","¡Gracias por visitar mi portafolio!","Soy ", " Hernan Gabriel Stagni, "],
+    "AboutMe.cuerpo":[" un apasionado desarrollador Full Stack, dedicado a la creación de soluciones web innovadoras y funcionales.","Me enfoco en el desarrollo de aplicaciones completas y dinámicas, implementando diversas tecnologias teles como:"," HTML5, CSS3,JavaScript, ReactJS, Node.js, Express.js y PostgrSQL."],
+    "AboutMe.filosofia":["Creo en la mejora continua, la comunicación efectiva y el trabajo en equipo para lograr resultados que ofrezcan una experiencia excepcional al usuario."],    
+    "AboutMe.despedida":["Si tienes alguna inquietud, ¡ No dudes en contactarme...!"]
+      
+ 
 
   }
   

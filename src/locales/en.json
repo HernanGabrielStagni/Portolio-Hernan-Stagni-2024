@@ -1,23 +1,23 @@
-
-
 {
-    "Navbar.home": "Home",
-    "Navbar.about": "About",
-    "Navbar.proyects": "Proyects",
-    "Navbar.contact": "Contact",
+  "Navbar.home": "Home",
+  "Navbar.about": "About",
+  "Navbar.contact": "Contact",
+  "Navbar.proyects": "Projects",
 
-    "inicio.BienvenidoPortafolio":"Wellcome to my Portafolio",
-    "inicio.name":"Hernán Gabriel Stagni",
-    "inicio.webDeveloper":"Web Developer",
+  "inicio.name": "Hernán Gabriel Stagni",
+  "inicio.BienvenidoPortafolio": "Hello... Welcome to my Portfolio",
+  "inicio.webDeveloper": "Web Developer",
+  "inicio.fullStack": "FULL STACK",
+  "inicio.Frontend": "Frontend",
+  "inicio.Backend": "Backend",
+  "inicio.presentation": "Welcome...!!!. Thank you for visiting my Portfolio. I am a web developer dedicated to creating innovative and functional solutions.",
+  "inicio.invitacion": "I'm ready to work together. Contact me...!!!",
 
-    "inicio.fullStack":"FULL STACK",
-    "inicio.Frontend":"Frontend",
-    "inicio.Backend":"Backend",
-    "inicio.presentation":"Welcome...!!!. Thank you for visiting my Portfolio. I am a web developer dedicated to creating innovative and functional solutions.",
-    "inicio.invitacion":"I am ready for us to work together ... Contact me...!!!",
-    
-    "DescargarPDF.descargar":"Download",
-    "DescargarPDF.cv":"CV" 
- 
-  }
-  
+  "DescargarPDF.descargar": "Download",
+  "DescargarPDF.cv": "CV",
+  "AboutMe.encabezado": ["Hello, Welcome...!", "Thank you for visiting my portfolio!", "I am ", "Hernan Gabriel Stagni, "],
+  "AboutMe.cuerpo": ["a passionate Full Stack developer, dedicated to creating innovative and functional web solutions.", "I focus on developing complete and dynamic applications, implementing various technologies such as:", " HTML5, CSS3, JavaScript, ReactJS, Node.js, Express.js, and PostgreSQL."],
+  "AboutMe.filosofia": ["I believe in continuous improvement, effective communication, and teamwork to achieve results that offer an exceptional user experience."],
+  "AboutMe.despedida": ["If you have any questions, feel free to contact me...!"]
+
+}

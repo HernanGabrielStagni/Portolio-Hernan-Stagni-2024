@@ -39,13 +39,28 @@
 }
 
 /* Titulo Hernán Gabriel Stagni */
-.presentation  h1 {
+.title__name{
+  /* width: 50%; */
+  margin: auto;
   border: solid red;
   border-radius: 10px;
   color: orangered;
-  font-size: 1.4rem;
+  font-size: 1rem;
   padding: .5em 0.3em;
 }
+
+
+.count__visitor{
+  width: 50%;
+  max-width: 150px;
+  margin: auto;
+  padding: .5em;
+}
+
+#visitor {
+  font-size: .8rem;
+}
+
 
 /*Presentacion " Titulo "Desarrollador Web" */
 .presentation h2 {
@@ -53,20 +68,27 @@
   font-size: 1.8rem;
   font-weight: 700;
   text-shadow: 1px 1px 1px rgb(13, 13, 14);
-  /* box-shadow: (0px 1px  1px rgb(201, 134, 66)); */
- 
-  filter: drop-shadow(0px 1px  5px rgb(253, 252, 251)); 
+   filter: drop-shadow(0px 1px  5px rgb(253, 252, 251)); 
   /* background-color: rgb(235, 66, 36); */
   margin-top: .5em;
 }
+
+
 
 /*Desarrollador Sutitulo  "Full Stack"  */
 .presentation h3 {
   /* background-color: aqua; */
   margin-top: .2em;
   color: rgb(252, 252, 252);
-  font-size: 1.2rem;
-}
+  font-size: 1.5rem;
+  /* text-shadow: 1px 1px 2px white;
+  filter: drop-shadow(2px 2px 2px orangered);
+   */
+   color:white;
+   text-shadow: 2px 1px 1px rgb(13, 13, 14);
+   filter: drop-shadow(0px 1px  5px rgb(253, 252, 251)); 
+ 
+  }
 
 /*texto de presentacion largo*/
 /*Hola , soy un desarrollador web full stack con expreriencioa en *
@@ -74,7 +96,13 @@ HTML, CSS, JavaScript, React, Git y npm.*/
 
 .presentation p {
   padding: 1em 1em;
-  font-size: 1.rem;
+  font-size: .9rem;
+}
+
+.presentation__invitacion h1{
+  font-size: 1.2rem;
+/* background-color: red; */
+padding: .5em;
 }
 
 /*Contenedor de botones Descarga + Whatsapp*/
