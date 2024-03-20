@@ -18,8 +18,9 @@
   background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
   /* Establece el degradado radial con tonos intermedios */
 
-  width: 120px;
-  height: 120px;
+  /* width:120px; */
+  aspect-ratio: 1;
+  height: 100px;
   padding: 0em;
   border-radius: 50%;
   border: groove 5px rgb(43, 26, 141);
@@ -32,15 +33,21 @@
 
 /*================================================*/
 
+
+
+
+
 /*  icono font de Descarga */
 .circulo__descarga .bx {
-  font-size: 60px;
-  position: absolute;
-  left: 20%;
-  transform: translateX(-50%);
-  padding: .1em;
   color: red;
+  font-size: 50px;
+  position: absolute;
+  left: 25%;
+  transform: translateX(-50%);
+  /* padding: .1em; */
   text-shadow: 2px 2px 9px white;
+ filter: drop-shadow(0px 0px 8px #cec21e);
+ top:4px
 }
 
 
@@ -51,56 +58,37 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 18px;
+  font-size: 15px;
   color: rgb(26, 44, 9);
   text-shadow: 1px -1px 3px rgb(148, 144, 158);
-  filter: drop-shadow(0px 0px 5px #f9faf9);
+  filter: drop-shadow(0px 0px 3px white);
   font-weight: 700;
-  bottom: 30px;
+  bottom: 25px;
 }
 
 /* Titulo "CV"  */
 .circulo__descarga h2 {
-  /* font-family: 'Times New Roman', Times, serif; */
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
   color: black;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.2em;
-  letter-spacing: 3px;
+  font-size: 15px;
   color: rgb(26, 44, 9);
-  text-shadow: 1px -1px 3px rgb(232, 231, 236);
-  filter: drop-shadow(0px 0px 6px #fbfdfb);
+  text-shadow: 1px -1px 2px  white;
+  filter: drop-shadow(0px 0px 3px white);
   font-weight: 700;
-  bottom: 10px;
+  bottom: 7px;
 }
 
-
-
-
-/*//////////////////////////////////////////*/
-
-
-
-
-.container_general button {
-  margin-top: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  /* font-size: 15px; */
-  width: 100%;
-  gap: 1em;
-
-
-  /* border: none; */
-
-  /* border-radius: 10px; */
-  /* background-color: rgb(52, 216, 74); */
-  background-color: transparent;
-  font-weight: 600;
-  cursor: pointer;
+.titulo__whatsapp{
+  font-family: 'Times New Roman', Times, serif;
+      
+     
+      font-size:15px ;
+      color: rgb(26, 44, 9);
+      
+      bottom: 20px;  
+      letter-spacing: .5px;
 }
+

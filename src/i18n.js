@@ -15,6 +15,8 @@ i18n
       es: {
         translation: translationES,
       },
+
+      
     },
     lng: 'es', // Idioma predeterminado
     fallbackLng: 'en', // Idioma de respaldo si el idioma solicitado no está disponible

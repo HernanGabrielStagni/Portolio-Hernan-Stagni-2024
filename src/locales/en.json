@@ -18,6 +18,8 @@
   "AboutMe.encabezado": ["Hello, Welcome...!", "Thank you for visiting my portfolio!", "I am ", "Hernan Gabriel Stagni, "],
   "AboutMe.cuerpo": ["a passionate Full Stack developer, dedicated to creating innovative and functional web solutions.", "I focus on developing complete and dynamic applications, implementing various technologies such as:", " HTML5, CSS3, JavaScript, ReactJS, Node.js, Express.js, and PostgreSQL."],
   "AboutMe.filosofia": ["I believe in continuous improvement, effective communication, and teamwork to achieve results that offer an exceptional user experience."],
-  "AboutMe.despedida": ["If you have any questions, feel free to contact me...!"]
+  "AboutMe.despedida": ["If you have any questions, feel free to contact me...!"],
+  "AboutMe.sobreMi": "About Me",
+  "AboutMe.habilidades": "My Skills"
 
 }

@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import Whatsapp from "./WHATSAPP/Whatsapp";
 import Typewriter from "typewriter-effect";
+import Counter from "../COUNTER/Counter";
 
 // con esto en cada componente accedemos a las variables en cada lengueje
 //import { useTranslation } from "react-i18next"; (importa el Hook )
@@ -19,15 +20,7 @@ const Inicio = () => {
         <div className="title__name">
           <h1>{t("inicio.name")}</h1>
         </div>
-        <div className="count__visitor">{/*CONTADOR DE VISITANTES*/}
-          <h3 id="visitor" >Eres el visitante N°:</h3>
-          <img
-            src="https://counter11.optistats.ovh/private/contadorvisitasgratis.php?c=suf395k9z411zuz58t3lcusts165hyql"
-            border="0"
-            title="contador de visitas gratis"
-            alt="contador de visitas gratis"
-          />
-        </div>
+      
         <h2 className="title__web">
           <Typewriter
             options={{
@@ -64,11 +57,11 @@ const Inicio = () => {
        //en HTML, CSS, JavaScript, React, Git y npm. */}
         <div className="presentation__invitacion">
           <p> {t("inicio.presentation")}</p>
-          <h1> {t("inicio.invitacion")}</h1>{" "}
+          <h1> {t("inicio.invitacion")}</h1>
           {/*Estoy listo para que trabajemos juntos**/}
         </div>
       </div>
-
+      <Counter/>
       <div className="descarga__whatsapp">
         <DescargarPDF />
         <Whatsapp />
@@ -77,6 +70,7 @@ const Inicio = () => {
       <div className="fondo__imagen">
         <img src="/img/teorianudos-euler200.png" alt="img programer" />
       </div>
+      
     </section>
   );
 };

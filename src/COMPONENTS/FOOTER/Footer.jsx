@@ -19,6 +19,7 @@ const Footer = () => {
      
 
       <ul>
+    
         <li> <h1>.....  Setting  ..</h1></li>
         <li onClick={handleShowSettings}>
         {/* "bx bx-cog bx-flip-vertical" */}
@@ -26,7 +27,9 @@ const Footer = () => {
 
           <div className="icon-container">
             <i className='bx bx-cog bx-spin'></i>
+          
           </div>
+         
         </li> 
       
          

@@ -1,19 +1,18 @@
 /*rectangulo exterior boton whatsapp*/
-.container__whatsapp {
-    /* background-color: #1f1818; */
+/* .containe__whatsapp {
+    width:120px;
+    height: 120px;
     background-color:transparent ; 
     font-size: 2em;
     color:rgb(42, 14, 153); 
-   
     font-weight: 700;
-    letter-spacing: 3px; /* Añade 2 píxeles de espacio entre caracteres */
+    letter-spacing: 3px; 
     display: flex;
     justify-content: center;
     align-items: center;
+} */
 
-    
 
-}
 
 /*========== Circulo general Chapita  ======================*/
 
@@ -22,8 +21,9 @@
     background: radial-gradient(circle at center, #12125c, #0c1053, #040180, #100f55, #9492df, #dcdce9);
     /* Establece el degradado radial con tonos intermedios */
    
-    width:120px;
-    height: 120px;
+    /* width:120px; */
+    aspect-ratio: 1;
+    height: 100px;
     padding: 0em;
     border-radius: 50%;
     border:groove 5px #469770;
@@ -40,12 +40,11 @@
 font-size: 50px;
 text-shadow:2px 2px 5px #fcfdfc;
 filter: drop-shadow(0px 0px 8px #cec21e);
-
 position: absolute;
-left: 25%;
+left: 22%;
 transform: translateX(-50%);
-padding: .1em;
-top:10px
+
+top:4px
 }
 
 /*=== <h3> Titulo  "whatsaapp"   ==*/
@@ -55,16 +54,12 @@ top:10px
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        font-size:18px ;
+        font-size:15px ;
         color: rgb(26, 44, 9);
         text-shadow: 1px -1px  3px rgb(93, 175, 77);
         filter: drop-shadow(0px 0px 5px #f9faf9);
         font-weight: 700;
-        bottom: 25px;  
+        bottom: 20px;  
         letter-spacing: .5px;
 }
 
-
-    
-/*================================================*/
-/*================================================*/

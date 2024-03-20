@@ -3,7 +3,7 @@ import "./contactMe.css";
 import FormContact from "./FormContacts";
 
 const ContactMe = () => {
-  const [showForm, setShowForm] = useState(false);
+  const [showForm, setShowForm] = useState(true);
 
   const handleShowForm = () => {
     setShowForm(!showForm);

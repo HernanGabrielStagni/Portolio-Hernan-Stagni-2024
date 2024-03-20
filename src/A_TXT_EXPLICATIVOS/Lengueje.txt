@@ -1,0 +1,208 @@
+🚹🌞🧑‍🎓🎀🎁🪄🧰🪪💻📧✉️📩📭⏮️⏫⏬⬅️➡️🔀⬆️⬇️↗️↘️↙️↖️↩️↪️🔄️🔙🔚🔝◀️🔼🔽▶️⏭️
+🏃‍♂️🏃‍♀️🏃🚶‍♂️🚶‍♀️🧍‍♀️🧍‍♂️🧍💃🕺🧘‍♂️🧘👆👇💪🤏👈🤞👌👎✨🎗️🛒🏅🎖️🏆🪄🎲🎰♣️♥️🔔🎼
+🎵🔏🔓🔒🔐🔑⛏️🧱🪛🔧🛖⚖️🧰🛡️📠💾📕📖📚📙💰🪙✒️🖊️📅📆🗓️📌📈📉🗄️
+⌛⏳🍾🏛️🏠🏦🏯🗽🗼⛅⛈️🌤️🌥️🌦️🌧️🌨️🌩️🌝🌑🌒🌓🌔🌕🌖🌗🌘🌙🌚🌛🌜☀️
+🌞⭐🌟🌠🌈☂️☔🌡️⚡❄️☃️🔥💧🌊❤️💕⚛️🔇🔕🔞☢️☣️🚹🚺🚻🚮📶🛜🆕🆗🆓®️
+💭🗯️💬🗨️
+
+🚹AUTOR: Hernan Gabriel Stagni
+
+
+Para implementar el cambio de idioma con i18next en una aplicación React, 
+primero necesitas configurar i18next y luego usar el hook useTranslation 
+proporcionado por react-i18next para acceder a las funciones de traducción. 
+Aquí tienes un ejemplo básico de cómo hacerlo:
+
+***********************************************************************************
+***********************************************************************************
+Paso 1: Instala las dependencias necesaria: "npm install i18next react-i18next"
+***********************************************************************************
+***********************************************************************************
+
+***********************************************************************************
+***********************************************************************************
+Paso 2: Crea archivos de traducción para cada idioma en la carpeta locales. 
+        Por ejemplo, en/translation.json, es/translation.json, fr/translation.json, etc.
+
+        Crea  dentro de la carpeta "src" la carpeta "locales" 
+        y dentro los JSON para cada idioma
+  locales/  
+    es.json
+    en.json
+    fr.json
+
+ locales/en.json : "el ormato del json es el siguiente" 
+ {"nombre constante":"valor idioma",}
+ 
+ {
+  "Home.saludo": "Bienvenido!",
+  "Home.nombre": "Hernan"   //el ultimo no lleva ","
+}
+***********************************************************************************
+***********************************************************************************
+
+
+
+***********************************************************************************
+***********************************************************************************
+Paso 3: Crea  en la carpeta "src" el archgivo "i18n.js" y Configuralo. 
+      
+ "i18n.js"
+************************************
+// Importaacion de lla libreria
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+// Importaacion de los json
+import translationES from './locales/es.json';
+import translationEN from './locales/en.json';
+import translationFR from './locales/fr.json';
+
+// Configuración de i18next
+i18n
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: {
+        translation: translationEN,
+      },
+      es: {
+        translation: translationES,
+      },
+      fr: {
+        translation: translationFR,
+      }
+
+      
+    },
+    lng: 'es', // Idioma predeterminado
+    fallbackLng: 'en', // Idioma de respaldo si el idioma solicitado no está disponible
+    interpolation: {
+      escapeValue: false,
+    },
+  });
+
+export default i18n;
+***********************************************************************************
+***********************************************************************************
+
+
+
+***********************************************************************************
+***********************************************************************************
+Paso 4: En main.jsx
+Hacemos estas dos Importaciones y envolvemos la aplicacion con { I18nextProvider }
+
+
+main.jsx
+***********************************************
+
+import { I18nextProvider } from 'react-i18next';                    //**********
+import i18n from './i18n'; // archivo donde configurarás i18next    //**********
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  
+  <I18nextProvider i18n={i18n}>      //******************************
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>,
+  </I18nextProvider>,                //******************************
+)
+***********************************************************************************
+***********************************************************************************
+
+***********************************************************************************
+***********************************************************************************
+Paso 5: Uso en los componentes
+
+1_ Parte de importaciones____ import { useTranslation } from 'react-i18next';
+2_ Parte de logica ______const { t, i18n } = useTranslation(); traemos todo en t
+3_ Uso de las constantes en el jxl ____<p> {t("welcomeMessage")} </p>
+
+En este componente, t es la función de traducción a la que se le pasa el nombre 
+de la constante y traera un valor u otro segun el idioma que se haya cargado
+***********************************************************************************
+***********************************************************************************
+
+
+
+***********************************************************************************
+***********************************************************************************
+Paso 5: Es conveniente hacer un componente para cambiar el lenguaje
+        Esto se puede hacer de muchas maneras. Aqui dejo un ejemplo usando onChange  
+  
+    Componente Lenguaje.jsx
+    ***************************************
+      import React from "react";
+      import "./language.css";
+      import { useTranslation } from "react-i18next";
+
+      const Language = ({currentLanguage,setCurrentLanguage}) => {
+        const { t, i18n } = useTranslation();
+        i18n.changeLanguage();// actualizo el idioma
+        
+        //uncion que setea el i18n
+        const cambiarIdioma = (e) => {
+          i18n.changeLanguage(e.target.value);// actualizo el idioma
+          setCurrentLanguage(e.target.value)
+        };
+
+        return (
+          <div className="container__language">
+            {/* <p>{t('welcomeMessage')}</p> */}
+
+            <div className="opciones">
+              <p className="Label__idioma">Idioma 🚹</p>
+
+              <select value={currentLanguage} id="idioma" onChange={cambiarIdioma}>
+                
+                
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Francés</option>
+              </select>
+
+            </div>
+          </div>
+        );
+      };
+
+export default Language;
+
+
+Archivo  CSS
+**************
+.container__language {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+    background-color: rgb(128, 110, 30);
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px wheat;
+
+    left: 15px;
+    bottom: 50px;
+    font-size: 1.5rem;
+
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    padding: 0 .3em;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(30, 120, 120);
+    
+    box-shadow: 0px 0px 5px 4px wheat;
+}
+
+.Label__idioma {
+    color: white;
+    /* font-size: 1rem; */
+    margin: 0;
+}
+
+select {
+    font-size: 1rem;
+}
+

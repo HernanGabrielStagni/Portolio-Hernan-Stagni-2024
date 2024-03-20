@@ -11,16 +11,18 @@
     "inicio.fullStack":"FULL STACK",
     "inicio.Frontend":"Frontend",
     "inicio.Backend":"Backend",
-    "inicio.presentation":"Bienvenido...!!!. Gracias por visitar mi Portafolio. Soy un desarrollador web dedicado a la creación de soluciones innovadoras y funcionales.",
-    "inicio.invitacion":" Estoy listo para que trabajemos juntos. Contactame...!!!",
+    "inicio.presentation":"Bienvenido a mi Portafolio...!!! Soy un desarrollador web dedicado a la creación de soluciones innovadoras y funcionales.",
+    "inicio.invitacion":"Listo para trabar...?  .   Contactame...!!!",
     
-    "DescargarPDF.descargar":"Descargarss",
+    "DescargarPDF.descargar":"Descargar",
     "DescargarPDF.cv":"CV",
+
     "AboutMe.encabezado":["¡Hola, Bienvenido...!","¡Gracias por visitar mi portafolio!","Soy ", " Hernan Gabriel Stagni, "],
     "AboutMe.cuerpo":[" un apasionado desarrollador Full Stack, dedicado a la creación de soluciones web innovadoras y funcionales.","Me enfoco en el desarrollo de aplicaciones completas y dinámicas, implementando diversas tecnologias teles como:"," HTML5, CSS3,JavaScript, ReactJS, Node.js, Express.js y PostgrSQL."],
     "AboutMe.filosofia":["Creo en la mejora continua, la comunicación efectiva y el trabajo en equipo para lograr resultados que ofrezcan una experiencia excepcional al usuario."],    
-    "AboutMe.despedida":["Si tienes alguna inquietud, ¡ No dudes en contactarme...!"]
-      
+    "AboutMe.despedida":["Si tienes alguna inquietud, ¡ No dudes en contactarme...!"],
+    "AboutMe.sobreMi": "Sobre Mi",
+    "AboutMe.habilidades": "Habilidades"
  
 
   }

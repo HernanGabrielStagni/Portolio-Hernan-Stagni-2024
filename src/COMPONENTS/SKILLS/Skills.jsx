@@ -1,11 +1,19 @@
 import React from "react";
 import "./skills.css";
+import { useTranslation } from "react-i18next";
+
+//import { useTranslation } from "react-i18next"; (importa el Hook )
+//const { t } = useTranslation();  (baja en t el json)
+//<h1 >{t("inicio.name")}</h1>     (accede a la variable deseada)
+
+
 const Skills = () => {
+  const { t } = useTranslation();
   return (
     <section className="container__skills" id='skills'>
       {/* <div className="skills"> */}
 
-        <title className="title_skills">Skills</title>
+        <title className="title_skills">{t("AboutMe.habilidades")}</title>
         
         <article className="skill">
           <i className="bx bxl-html5"></i>

@@ -14,7 +14,7 @@ const AboutMe = () => {
   return (
     <section className="container__aboutMe" id="skills">
       {/* <article className="div__title"> */}
-        <title className="title__aboutMe">About Me</title>
+        <title className="title__aboutMe">{t("AboutMe.sobreMi")}</title>
       {/* </article> */}
 
       <article className="div__presentation">
