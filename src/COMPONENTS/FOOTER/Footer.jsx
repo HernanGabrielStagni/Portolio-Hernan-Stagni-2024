@@ -20,7 +20,7 @@ const Footer = () => {
 
       <ul>
     
-        <li> <h1>.....  Setting  ..</h1></li>
+        <li> <h1>..{t("Footer.configuracion")}..</h1></li>
         <li onClick={handleShowSettings}>
         {/* "bx bx-cog bx-flip-vertical" */}
           {/* <i className="bx bx-cog bx-spin"></i>*/}

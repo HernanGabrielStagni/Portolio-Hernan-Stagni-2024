@@ -20,6 +20,8 @@
   "AboutMe.filosofia": ["I believe in continuous improvement, effective communication, and teamwork to achieve results that offer an exceptional user experience."],
   "AboutMe.despedida": ["If you have any questions, feel free to contact me...!"],
   "AboutMe.sobreMi": "About Me",
-  "AboutMe.habilidades": "My Skills"
+  "AboutMe.habilidades": "My Skills",
+
+  "Footer.configuracion":"Configuration"
 
 }

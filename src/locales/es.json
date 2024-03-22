@@ -22,8 +22,9 @@
     "AboutMe.filosofia":["Creo en la mejora continua, la comunicación efectiva y el trabajo en equipo para lograr resultados que ofrezcan una experiencia excepcional al usuario."],    
     "AboutMe.despedida":["Si tienes alguna inquietud, ¡ No dudes en contactarme...!"],
     "AboutMe.sobreMi": "Sobre Mi",
-    "AboutMe.habilidades": "Habilidades"
- 
+    "AboutMe.habilidades": "Habilidades",
+    
+    "Footer.configuracion":"Configuración"
 
   }
   

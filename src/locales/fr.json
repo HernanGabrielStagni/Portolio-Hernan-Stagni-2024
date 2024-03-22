@@ -1,0 +1,28 @@
+{
+    "Navbar.home": "Accueil",
+    "Navbar.about": "À Propos",
+    "Navbar.contact": "Contact",
+    "Navbar.proyects": "Projets",
+  
+    "inicio.name": "Hernán Gabriel Stagni",
+    "inicio.BienvenidoPortafolio": "Bonjour... Bienvenue sur mon portfolio",
+    "inicio.webDeveloper": "Développeur Web",
+    "inicio.fullStack": "FULL STACK",
+    "inicio.Frontend": "Frontend",
+    "inicio.Backend": "Backend",
+    "inicio.presentation": "Bienvenue sur mon Portfolio...!!! Je suis un développeur web dédié à la création de solutions innovantes et fonctionnelles.",
+    "inicio.invitacion": "Prêt à travailler...? Contactez-moi...!!!",
+    
+    "DescargarPDF.descargar": "Télécharger",
+    "DescargarPDF.cv": "CV",
+  
+    "AboutMe.encabezado": ["Bonjour, Bienvenue...!", "Merci de visiter mon portfolio!", "Je suis ", "Hernan Gabriel Stagni,"],
+    "AboutMe.cuerpo": ["un développeur Full Stack passionné, dédié à la création de solutions web innovantes et fonctionnelles.", "Je me concentre sur le développement d'applications complètes et dynamiques, en utilisant diverses technologies telles que:", "HTML5, CSS3, JavaScript, ReactJS, Node.js, Express.js et PostgreSQL."],
+    "AboutMe.filosofia": ["Je crois en l'amélioration continue, la communication efficace et le travail d'équipe pour obtenir des résultats qui offrent une expérience exceptionnelle à l'utilisateur."],    
+    "AboutMe.despedida": ["Si vous avez des questions, n'hésitez pas à me contacter...!"],
+    "AboutMe.sobreMi": "À Propos de Moi",
+    "AboutMe.habilidades": "Compétences",
+
+    "Footer.configuracion":"Configuration"
+  }
+  
